@@ -43,7 +43,7 @@ const NavBar = () => {
       const increaseSize = () =>{
         if(currentSize < 140){
           setCircleSize(currentSize);
-          currentSize += 3;
+          currentSize += 5;
           setTimeout(increaseSize, 1)
         }else{
           setCircleSize(140);
@@ -55,7 +55,7 @@ const NavBar = () => {
       const decreaseSize = () =>{
         if(currentSize >= 140){
           setCircleSize(currentSize);
-          currentSize -= 3;
+          currentSize -= 5;
           setTimeout(decreaseSize, 1)
         }else{
           setCircleSize(0);
