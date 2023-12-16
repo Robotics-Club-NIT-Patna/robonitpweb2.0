@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { AlignJustify, X } from 'lucide-react';
 import '../App.css'
-import '../../public/images/Untitled.jpg'
+import img1 from '/images/Untitled.jpg'
 const NavBar = () => {
 
   const [circleSize, setCircleSize] = useState(0);
@@ -68,7 +68,7 @@ const NavBar = () => {
   return (
     <>
       <div className='sm:flex gap-18 p-5 font-mono bg-black '>
-             <Link to="/"><div className='p-2 items-center'><img src='../../public/images/Untitled.jpg' alt='' className='h-20 cursor-pointer' /></div></Link>
+             <Link to="/"><div className='p-2 items-center'><img src={img1} alt='' className='h-20 cursor-pointer' /></div></Link>
 
               <div className='hidden sm:flex sm:gap-2 sm:ml-auto '>
                     <Link to='/about'>
