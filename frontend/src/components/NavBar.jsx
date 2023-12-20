@@ -67,7 +67,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className='sm:flex gap-18 p-5 font-mono bg-black '>
+      <div className='sm:flex gap-18 p-5 font-mono bg-black sticky top-0 bg-transparent '>
              <Link to="/"><div className='p-2 items-center'><img src={img1} alt='' className='h-20 cursor-pointer' /></div></Link>
 
               <div className='hidden sm:flex sm:gap-2 sm:ml-auto '>

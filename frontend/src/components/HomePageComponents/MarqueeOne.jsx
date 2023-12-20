@@ -1,9 +1,11 @@
-import React from 'react'
-
+import React from 'react';
+import '../../../src/App.css'
 const MarqueeOne = () => {
   return (
-    <div>MarqueeOne</div>
-  )
-}
+        <div>
+               
+        </div>
+  );
+};
 
-export default MarqueeOne
+export default MarqueeOne;

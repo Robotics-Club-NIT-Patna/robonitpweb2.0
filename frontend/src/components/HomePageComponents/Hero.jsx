@@ -13,7 +13,7 @@ const Hero = () => {
                          </div>
                         
                    </div>
-                   <div className='flex justify-center items-center mt-5 w-3/5 sm:w-4/6'>
+                   <div className='flex justify-center items-center font-anton mt-5 w-3/5 sm:w-4/6'>
                          <h2>Our on-site merch customization experiences transform your event attendees into artists, creators, and product designers.</h2>
                    </div>
                    <div className='mt-5'>
