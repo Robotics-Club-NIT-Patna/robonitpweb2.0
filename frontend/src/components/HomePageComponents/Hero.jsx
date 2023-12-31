@@ -3,11 +3,11 @@ import { MoveRight } from 'lucide-react';
 const Hero = () => {
   return (
     <>
-        <div className='flex flex-col lg:flex-row gap-10'>
-              <div className=' flex flex-col items-center sm:justify-center lg:justify-center lg:items-center lg:w-11/12 border border-green ' >
+        <div className='flex flex-col lg:flex-row gap-10 -z-30'>
+              <div className=' flex flex-col items-center sm:justify-center lg:justify-center lg:items-center lg:w-11/12 -z-30 border border-green ' >
                    <div className='relative justify-center items-center h-48 sm:h-64  overflow-hidden flex border lg:w-full ' style={{width:'77%'}}>
-                         <img className='h-52 -z-20 sm:h-70 sm:w-4/5 lg:w-full lg:h-full' src='https://i.pinimg.com/originals/3b/aa/c0/3baac05f19c1d4f2f3ba69a534cb629c.gif' alt=''/>
-                         <div className='h-70 p-6 absolute -z-20 flex flex-col justify-center items-center mix-blend-multiply bg-black sm:w-5/6 lg:w-full'>
+                         <img className='h-52 -z-30 sm:h-70 sm:w-4/5 lg:w-full lg:h-full' src='https://i.pinimg.com/originals/3b/aa/c0/3baac05f19c1d4f2f3ba69a534cb629c.gif' alt=''/>
+                         <div className='h-70 p-6 absolute -z-30 flex flex-col justify-center items-center mix-blend-multiply bg-black sm:w-5/6 lg:w-full'>
                               <h1 className='font-anton text-7xl sm:text-8xl lg:text-9xl '>ROBOTICS</h1>
                               <h1 className='font-anton text-7xl sm:text-8xl lg:text-9xl '>REDEFINED</h1>
                          </div>

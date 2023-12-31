@@ -68,7 +68,11 @@ const NavBar = () => {
   return (
     <>
       <div className='xl:flex gap-18 p-5 font-mono bg-black sticky top-0 bg-transparent '>
-             <Link to="/"><div className='p-2 items-center ml-20'><img src='./images/logo.png' alt='' className='h-20 cursor-pointer' /></div></Link>
+             <Link to="/">
+                    <div className='p-2 items-center ml-20 relative'>
+                         <img src='./images/logo.png' alt='' className='h-20 cursor-pointer' />
+                    </div>
+             </Link>
 
               <div className='hidden xl:flex xl:gap-10 xl:ml-20'>
                     <Link to='/about'>
@@ -105,10 +109,10 @@ const NavBar = () => {
             <div className=''>
                  <div className={`circle bg-black fixed  top-0 right-0  rounded-bl-full ${isOpen ? 'transition-all duration-3 ease-in-out' : ''}`}style={{ width: `${circleSize}%`, height: `${circleSize}%` }}></div>
                     <div className='absolute top-0 right-0 sm:hidden p-8 font-anton flex justify-end  w-full'>
-                           <div onClick={toggleAccordion} ><div className=' w-full'><X size={30} /></div></div>
+                           <div onClick={toggleAccordion} ><div className=' w-full '><X size={30}/></div></div>
                     </div>
 
-               <div  className=' fixed gap-2 right-0   p-4 w-full mt-10 flex-col justify-center items-center cursor-pointer  h-full text-white  '>
+               <div  className=' fixed gap-2 right-0   p-4 w-full mt-10 flex-col justify-center items-center cursor-pointer  h-full text-white'>
                    <Link to='/about'>
                           <div className='hover:bg-white hover:text-black rounded-md cursor-pointer p-2 flex justify-center items-center  transition-all hover:translate-x-1 ease-in-out text-5xl mt-5' style={{ opacity, transition: 'opacity 0.1s ease-in-out' }}>About</div>
                    </Link>
