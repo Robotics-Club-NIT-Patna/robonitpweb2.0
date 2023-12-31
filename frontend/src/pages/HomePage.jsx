@@ -3,6 +3,7 @@ import Hero from '../components/HomePageComponents/Hero'
 import MarqueeOne from '../components/HomePageComponents/MarqueeOne'
 import Roboexperience from '../components/HomePageComponents/RoboExperience'
 import Experience from '../components/HomePageComponents/Experience'
+import Carousel from '../components/HomePageComponents/Carousel'
 const HomePage = ({isOpen}) => {
     return (
         <>
@@ -10,6 +11,8 @@ const HomePage = ({isOpen}) => {
           <MarqueeOne/>
           <Roboexperience/>
           <Experience/>
+          <Carousel/>
+
         </>
     )
 }

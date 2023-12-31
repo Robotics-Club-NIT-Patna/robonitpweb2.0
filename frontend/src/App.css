@@ -3,3 +3,29 @@
 .font-anton {
     font-family: 'Anton', sans-serif;
   }
+  body{
+    overflow-x: hidden ;
+  }
+
+  .rectangle{
+    background-color: green;
+  }
+
+  /* navbar styles */
+
+  .rectangle:hover .circle{
+    animation: initialIncrease 1s ease-out forwards, fastIncrease 0.2s ease-in forwards;
+    opacity: 1;
+}
+
+@keyframes initialIncrease {
+    to{
+        transform: scale(1);
+    }
+}
+
+@keyframes fastIncrease{
+    to{
+        transform: scale(4.4);
+    }
+}

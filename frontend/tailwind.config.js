@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+       width:{
+         'widthOne':'26rem',
+         'custom-width-small':'80rem', 
+       },
+       backgroundColor:{
+          'customPink':'#f84b87',
+       },
+       textColor:{
+           'navbarTextColor':'#6ff13e'
+       }
+    },
   },
   plugins: [],
 }
