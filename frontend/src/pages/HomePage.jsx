@@ -4,6 +4,11 @@ import MarqueeOne from '../components/HomePageComponents/MarqueeOne'
 import Roboexperience from '../components/HomePageComponents/RoboExperience'
 import Experience from '../components/HomePageComponents/Experience'
 import Carousel from '../components/HomePageComponents/Carousel'
+import RoboDesign from '../components/HomePageComponents/RoboDesign'
+import PelletsGame from '../components/HomePageComponents/PelletsGame'
+import CaseStudies from '../components/HomePageComponents/CaseStudies'
+import MarqueeTwo from '../components/HomePageComponents/MarqueeTwo'
+import CardMarquee from '../components/HomePageComponents/CardMarquee'
 const HomePage = ({isOpen}) => {
     return (
         <>
@@ -12,7 +17,11 @@ const HomePage = ({isOpen}) => {
           <Roboexperience/>
           <Experience/>
           <Carousel/>
-
+          <RoboDesign/>
+          <PelletsGame/>
+          <CaseStudies/>  
+          <MarqueeTwo/>  
+          <CardMarquee/>
         </>
     )
 }

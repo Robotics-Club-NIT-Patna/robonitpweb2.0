@@ -67,14 +67,14 @@ const NavBar = () => {
 
   return (
     <>
-      <div className='xl:flex gap-18 p-5 font-mono bg-black sticky top-0 bg-transparent '>
+      <div className='xl:flex gap-18 p-5 font-mono sticky top-0 bg-transparent backdrop-blur-md '>
              <Link to="/">
                     <div className='p-2 items-center ml-20 relative'>
                          <img src='./images/logo.png' alt='' className='h-20 cursor-pointer' />
                     </div>
              </Link>
 
-              <div className='hidden xl:flex xl:gap-10 xl:ml-20'>
+              <div className='hidden items-center xl:flex xl:gap-10 xl:ml-20'>
                     <Link to='/about'>
                           <div className='  hover:text-navbarTextColor text-xl rounded-md cursor-pointer p-2  items-center font-bold'>About</div>
                     </Link>

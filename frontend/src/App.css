@@ -29,3 +29,11 @@
         transform: scale(4.4);
     }
 }
+
+/* case studies style */
+
+.custom-long-duration{
+  transition-duration: 2s !important;
+
+}
+
