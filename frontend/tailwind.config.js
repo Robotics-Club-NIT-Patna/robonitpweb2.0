@@ -12,6 +12,8 @@ export default {
        },
        backgroundColor:{
           'customPink':'#f84b87',
+          'customBlueOne':'#0ea5e9',
+          'customBlueTwo':'#60a5fa'
        },
        textColor:{
            'navbarTextColor':'#6ff13e'
