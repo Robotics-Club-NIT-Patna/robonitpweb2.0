@@ -18,7 +18,7 @@ const Experience = () => {
 
          {/* ExperienceCard */}
 
-         <div className='flex gap-10 mt-16 mb-10 overflow-x-scroll overflow-y-hidden'>
+         <div className='flex gap-10 mt-16 mb-10 overflow-x-scroll overflow-y-hidden '>
             {cardData.map((item)=>(
               <ExperienceCard key={item.id} title={item.title} rotation={item.rotation} imageUrl={item.imageUrl}/>
             ))}

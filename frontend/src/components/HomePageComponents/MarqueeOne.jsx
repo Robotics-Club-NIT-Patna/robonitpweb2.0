@@ -38,16 +38,51 @@ const MarqueeOne = () => {
 
   ];
 
+  const images2 = [
+    {
+      imageSrc:'./images/eventImg.jpg',
+      letter:'R'
+    },
+    {
+      imageSrc:'./images/eventImg.jpg',
+      letter:'O'
+    },
+    {
+      imageSrc:'./images/eventImg.jpg',
+      letter:'B'
+    },
+    {
+      imageSrc:'./images/eventImg.jpg',
+      letter:'O'
+    },
+    {
+      imageSrc:'./images/eventImg.jpg',
+      letter:'T'
+    },
+    {
+      imageSrc:'./images/eventImg.jpg',
+      letter:'I'
+    },
+    {
+      imageSrc:'./images/eventImg.jpg',
+      letter:'C'
+    },
+    {
+      imageSrc:'./images/eventImg.jpg',
+      letter:'S'
+    },
+  ];
+
   return (
     <>
       <div
-        className='loop-track mt-20 w-full'
+        className='loop-track mt-20 w-full relative'
 
       >
-        <div className='loop-content flex  w-full'
+        <div className='loop-content flex  w-full -z-30'
 
         >
-          <Marquee>
+          <Marquee className=''>
             {images.map((src, index) => (
               <div key={index} className='item ml-10'
                 style={{
@@ -63,20 +98,25 @@ const MarqueeOne = () => {
       </div>
 
       <div
-        className='loop-track mt-20 w-full  '
+        className='loop-track mt-10 w-full  '
 
       >
         <div className='loop-content flex  w-full'
 
         >
           <Marquee direction=''>
-            {images.map((src, index) => (
-              <div key={index} className='item ml-10'
+            {images2.map((src, index) => (
+              <div key={index} className='item flex -ml-32 relative justify-center items-center h-48   overflow-hidden ' 
                 style={{
                   transform: `translate(-${scrollX / 2}%, 0%) translate3d(0px, 0px, 0px)`,
                 }}
               >
-                <img src={src} alt={`Item ${index}`} width='' height='' className='h-16 w-20 object-cover' />
+                
+                    <img src={src.imageSrc} alt={`Item ${index}`} width='' height='' className='h-52 object-cover -z-30 ' />
+                          <div className='h-70  p-6 absolute -z-30 flex flex-col justify-center items-center mix-blend-multiply bg-black w-full'>
+                              <h1 className='font-ultra text-9xl -ml-32' style={{fontSize:'15rem'}}>{src.letter}</h1>
+                          </div>
+
               </div>
             ))}
           </Marquee>

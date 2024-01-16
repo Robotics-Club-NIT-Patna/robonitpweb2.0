@@ -67,7 +67,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className='xl:flex gap-18 p-5 font-mono sticky top-0 bg-transparent backdrop-blur-md '>
+      <div className='xl:flex gap-18 p-5 font-mono sticky top-0 bg-transparent backdrop-blur-md'>
              <Link to="/">
                     <div className='p-2 items-center ml-20 relative'>
                          <img src='./images/logo.png' alt='' className='h-20 cursor-pointer' />
