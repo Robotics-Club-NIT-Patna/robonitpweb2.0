@@ -7,7 +7,7 @@ const About = () => {
       <div className='max-w-[1280px] justify-center mx-auto'>
         <InfoCards />
       </div>
-    </div>
+      </div>
   )
 }
 

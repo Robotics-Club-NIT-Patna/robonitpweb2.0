@@ -41,19 +41,19 @@ const NavBar = () => {
     if(isOpen){
       let currentSize = 0;
       const increaseSize = () =>{
-        if(currentSize < 140){
+        if(currentSize < 600){
           setCircleSize(currentSize);
           currentSize += 5;
           setTimeout(increaseSize, 0.1)
         }else{
-          setCircleSize(140);
+          setCircleSize(600);
         }
       };
       increaseSize();
     }else{
-      let currentSize = 140;
+      let currentSize = 600;
       const decreaseSize = () =>{
-        if(currentSize >= 140){
+        if(currentSize >= 600){
           setCircleSize(currentSize);
           currentSize -= 5;
           setTimeout(decreaseSize, 0.1)
@@ -67,7 +67,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className='xl:flex gap-18 p-5 font-mono sticky top-0 bg-transparent backdrop-blur-md '>
+      <div className='xl:flex gap-18 p-5 font-mono sticky top-0 bg-transparent backdrop-blur-md'>
              <Link to="/">
                     <div className='p-2 items-center ml-20 relative'>
                          <img src='./images/logo.png' alt='' className='h-20 cursor-pointer' />
@@ -107,7 +107,7 @@ const NavBar = () => {
 
           {isOpen && (
             <div className=''>
-                 <div className={`circle bg-black fixed  top-0 right-0  rounded-bl-full ${isOpen ? 'transition-all duration-3 ease-in-out' : ''}`}style={{ width: `${circleSize}%`, height: `${circleSize}%` }}></div>
+                 <div className={`circle bg-black fixed  top-0 right-0  rounded-bl-full ${isOpen ? 'transition-all duration-100 ease-in-out' : ''}`}style={{ width: `${circleSize}%`, height: `${circleSize}%` }}></div>
                     <div className='absolute top-0 right-0 sm:hidden p-8 font-anton flex justify-end  w-full'>
                            <div onClick={toggleAccordion} ><div className=' w-full '><X size={30}/></div></div>
                     </div>

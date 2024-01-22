@@ -2,7 +2,6 @@ import React from 'react'
 import CarouselCard from './CarouselCard'
 import carouselCardData from '../../carouselCardData'
 const Carousel = () => {
-    console.log('carouselCardData:', carouselCardData);
   return (
     <>
     <div className='flex ml-10 overflow-x-scroll overflow-y-hidden gap-20'>

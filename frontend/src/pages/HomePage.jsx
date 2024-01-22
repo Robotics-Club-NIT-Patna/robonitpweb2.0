@@ -9,18 +9,20 @@ import PelletsGame from '../components/HomePageComponents/PelletsGame'
 import CaseStudies from '../components/HomePageComponents/CaseStudies'
 import MarqueeTwo from '../components/HomePageComponents/MarqueeTwo'
 import CardMarquee from '../components/HomePageComponents/CardMarquee'
+import Trending from '../components/HomePageComponents/Trending'
 const HomePage = ({isOpen}) => {
     return (
         <>
           <Hero/>
-          <MarqueeOne/>
           <Roboexperience/>
+          <MarqueeOne/>
           <Experience/>
           <Carousel/>
           <RoboDesign/>
           <PelletsGame/>
           <CaseStudies/>  
           <MarqueeTwo/>  
+          <Trending/>
           <CardMarquee/>
         </>
     )
