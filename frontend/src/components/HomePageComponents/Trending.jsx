@@ -1,38 +1,33 @@
-import TrendingCard from "./TrendingCard";
-import trendingData from "../../trendingData";
-
+import React from 'react'
+import TrendingCard from './TrendingCard'
 const Trending = () => {
-  return (
-    <div className="flex flex-col mx-24">
-      <div className="mt-10">
-        <h1
-          className="text-9xl font-anton"
-          style={{
-            WebkitTextStroke: "1px white",
-            color: "black",
-            textStroke: "1px white",
-          }}
-        >
-          WHATS
-        </h1>
-        <h1 className="text-9xl font-anton text-#fcffff">TRENDING</h1>
-      </div>
+    return (
+        <>
+            <div className='m-10'>
+                <div className='heading'>
+                    <div className='font-anton text-8xl text-white'>WHAT'S</div>
+                    <div
+                        className='font-anton text-8xl'
+                        style={{
+                            WebkitTextStroke: '1px white',
+                            color: 'black',
+                            textStroke: '1px white'
+                        }}
+                    >
+                        TRENDING
+                    </div>
+                </div>
 
-      {/* TrendingCard */}
+                <div className='flex justify-center gap-10 mt-10'>
+                    <TrendingCard />
+                    <TrendingCard />
+                    <TrendingCard />
 
-      <div className="grid grid-cols-3 gap-16  mt-16 mb-10 overflow-x-scroll overflow-y-hidden">
-        {trendingData.map((item) => (
-          <TrendingCard
-            key={item.id}
-            title={item.title}
-            description={item.description}
-            date={item.date}
-            imageUrl={item.imageUrl}
-          />
-        ))}
-      </div>
-    </div>
-  );
-};
+                </div>
 
-export default Trending;
+            </div>
+        </>
+    )
+}
+
+export default Trending
