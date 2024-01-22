@@ -3,24 +3,22 @@ import trendingData from "../../trendingData";
 
 const Trending = () => {
   return (
-    <div className="flex flex-col mx-24">
-      <div className="mt-10">
-        <h1
-          className="text-9xl font-anton"
-          style={{
-            WebkitTextStroke: "1px white",
-            color: "black",
-            textStroke: "1px white",
-          }}
-        >
-          WHATS
-        </h1>
-        <h1 className="text-9xl font-anton text-#fcffff">TRENDING</h1>
-      </div>
+    <div className="flex flex-col md:mx-4 items-centre justify-center md:justify-start">
+      <div className='ml-8 mr-8'>
+              <h1 className='font-anton text-8xl'
+                 style={{
+                  WebkitTextStroke:'1px white',
+                  color:'black',
+                  textStroke:'1px white'
+                 }}>
+                     WHATS
+              </h1>
+              <h1 className='font-anton text-8xl text-white'>TRENDING</h1>
+         </div>
 
       {/* TrendingCard */}
 
-      <div className="grid grid-cols-3 gap-16  mt-16 mb-10 overflow-x-scroll overflow-y-hidden">
+      <div className="grid md:grid-cols-3 grid-rows-3 gap-16 md:mx-6 mt-16 mb-10 overflow-x-scroll overflow-y-hidden">
         {trendingData.map((item) => (
           <TrendingCard
             key={item.id}
