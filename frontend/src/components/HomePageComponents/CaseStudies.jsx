@@ -18,7 +18,7 @@ const CaseStudies = () => {
 
          <div className='images flex flex-col gap-10 mt-10 ml-5 mr-5 sm:flex-row sm:gap-4 '>
                 <div className='flex justify-center items-center bg-slate-500      sm:h-96 sm:w-80 lg:w-96 overflow-hidden rounded-2xl sm:hover:flex-shrink-0 sm:transition-all custom-long-duration cursor-pointer'><img className='h-96 object-cover' src='./images/arduino.jpg'  alt=''/></div>
-                <div className='sm:h-96 sm:w-80 lg:w-96  overflow-hidden rounded-2xl sm:hover:flex-shrink-0 sm:transition-all custom-long-duration cursor-pointer'><img className='sm:h-96 object-cover' src='./images/arduino.jpg'  alt=''/></div>
+                <div className='sm:h-96 sm:w-80 lg:w-96  overflow-hidden rounded-2xl sm:hover:flex-shrink-0 sm:transition-all custom-long-duration cursor-pointer'><img className='h-96 object-cover' src='./images/arduino.jpg'  alt=''/></div>
                 <div className='sm:h-96 sm:w-80 lg:w-96  overflow-hidden rounded-2xl sm:hover:flex-shrink-0 sm:transition-all custom-long-duration cursor-pointer'><img className='h-96 object-cover' src='./images/arduino.jpg'  alt=''/></div>
                 <div className='sm:h-96 sm:w-80 lg:w-96  overflow-hidden rounded-2xl sm:hover:flex-shrink-0 sm:transition-all custom-long-duration cursor-pointer'><img className='h-96 object-cover' src='./images/arduino.jpg'  alt=''/></div>
                 <div className='sm:h-96 sm:w-80 lg:w-96  overflow-hidden rounded-2xl sm:hover:flex-shrink-0 sm:transition-all custom-long-duration cursor-pointer'><img className='h-96 object-cover' src='./images/arduino.jpg'  alt=''/></div>

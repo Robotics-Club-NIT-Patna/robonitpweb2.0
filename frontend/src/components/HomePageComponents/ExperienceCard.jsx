@@ -1,7 +1,15 @@
 import React from 'react'
+import { useParallax } from 'react-scroll-parallax'
 const ExperienceCard = ({title, imageUrl, rotation}) => {
+
+
+    const parallax = useParallax({
+      translateX: [10, -100],
+      duration:0.2
+    })
+
   return (
-    <div className='-z-20'>
+    <div className='sticky top-10' ref={parallax.ref}>
         <div className={`flex-col justify-center items-center w-80 h-96 ml-5 ${rotation}`}>
           <div className={`h-4/5  overflow-hidden flex justify-center items-center  ${rotation}`}>
                <img className='h-4/5' src={imageUrl} alt=""/>

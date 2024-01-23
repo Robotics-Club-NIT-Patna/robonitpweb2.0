@@ -43,3 +43,8 @@ font-family: 'Ultra', serif;
 
 }
 
+/* Navbar */
+
+.overflow-hidden {
+  overflow: hidden;
+}

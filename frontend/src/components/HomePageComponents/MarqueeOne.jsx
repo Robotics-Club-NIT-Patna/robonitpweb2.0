@@ -8,7 +8,6 @@ const MarqueeOne = () => {
   useEffect(() => {
     const handleScroll = () => {
       const newScrollX = window.scrollY;
-      console.log('ScrollX:', newScrollX);
       setScrollX(newScrollX);
     };
 
@@ -76,10 +75,10 @@ const MarqueeOne = () => {
   return (
     <>
       <div
-        className='loop-track mt-20 w-full relative'
+        className='loop-track mt-20 w-full relative -z-30'
 
       >
-        <div className='loop-content flex  w-full -z-30'
+        <div className='loop-content flex  w-full '
 
         >
           <Marquee className=''>
@@ -98,7 +97,7 @@ const MarqueeOne = () => {
       </div>
 
       <div
-        className='loop-track mt-10 w-full  '
+        className='loop-track mt-10 w-full relative -z-30 '
 
       >
         <div className='loop-content flex  w-full'
@@ -112,9 +111,9 @@ const MarqueeOne = () => {
                 }}
               >
                 
-                    <img src={src.imageSrc} alt={`Item ${index}`} width='' height='' className='h-52 object-cover -z-30 ' />
+                    <img src={src.imageSrc} alt={`Item ${index}`} width='' height='' className= 'h-44 sm:h-52 object-cover -z-30 -ml-16 sm:ml-0' />
                           <div className='h-70  p-6 absolute -z-30 flex flex-col justify-center items-center mix-blend-multiply bg-black w-full'>
-                              <h1 className='font-ultra text-9xl -ml-32' style={{fontSize:'15rem'}}>{src.letter}</h1>
+                              <h1 className='font-ultra  text-9xl -ml-32 sm:text-customFont'>{src.letter}</h1>
                           </div>
 
               </div>
