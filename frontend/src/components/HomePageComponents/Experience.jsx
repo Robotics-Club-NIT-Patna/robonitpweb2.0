@@ -33,7 +33,6 @@ const Experience = () => {
                 scrollbarWidth: 'none',           // For Firefox
                 msOverflowStyle: 'none',          // For IE/Edge
                 overflow: '-moz-scrollbars-none', // For Firefox
-                msOverflowStyle: 'none',     // For IE/Edge
                 scrollbarColor: 'transparent transparent', // For Firefox
                 WebkitScrollbar: {
                   width: 0,
