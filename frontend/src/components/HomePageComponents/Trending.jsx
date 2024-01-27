@@ -4,7 +4,7 @@ import trendingData from "../../trendingData";
 
 const Trending = () => {
   return (
-    <div className="flex flex-col md:mx-4 items-centre justify-center md:justify-start">
+    <div className="flex flex-col md:mx-4 items-center justify-center md:justify-start">
       <div className='ml-8 mr-8'>
               <h1 className='font-anton text-8xl'
                  style={{
@@ -19,7 +19,7 @@ const Trending = () => {
 
       {/* TrendingCard */}
 
-      <div className="grid md:grid-cols-3 grid-rows-3 gap-16 md:mx-6 mt-16 mb-10 overflow-x-scroll overflow-y-hidden">
+      <div className="grid md:grid-cols-3 grid-rows-3 gap-16 md:mx-6 mt-16 mb-10 justify-center items-center overflow-x-scroll overflow-y-hidden bg-yellow-400 h-[160rem]">
         {trendingData.map((item) => (
           <TrendingCard
             key={item.id}

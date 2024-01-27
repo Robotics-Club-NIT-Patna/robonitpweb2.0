@@ -12,4 +12,4 @@ export default defineConfig({
         external: ['react-scroll-parallax'],
      },
   },
-})
+});
