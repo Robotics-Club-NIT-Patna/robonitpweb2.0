@@ -2,7 +2,7 @@ import Buttons from "../Buttons";
 
 const TrendingCard = ({ imageUrl, title, description, date }) => {
   return (
-      <div className="flex flex-col gap-6 group w-full items-center md:items-start">
+      <div className="flex flex-col gap-6 group w-full p-5  bg-pink-400 items-center md:items-start">
         <div className="rounded-3xl overflow-hidden items-center justify-center h-[20rem] w-[24rem] flex mb-4">
           <img
             srcSet={imageUrl}

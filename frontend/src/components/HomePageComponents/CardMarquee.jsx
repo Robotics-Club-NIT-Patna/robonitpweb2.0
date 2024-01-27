@@ -7,7 +7,7 @@ const CardMarquee = () => {
 
     return (
         <>
-            <div className='flex justify-center items-center mt-20 relative -z-10'>
+            <div className='flex justify-center items-center  relative -z-10'>
 
                 <div className='relative transform -rotate-12 z-10 overflow-hidden w-44 sm:w-2/6 h-60 sm:h-full'>
                     <img className='h-48 sm:h-96 object-cover' src='https://familyindustrieslive.com/wp-content/uploads/2023/03/Frame-21-04-2023-01-26-46.jpg' alt='' />
