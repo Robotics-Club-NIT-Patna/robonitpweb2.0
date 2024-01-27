@@ -7,4 +7,9 @@ export default defineConfig({
   optimizeDeps: {
     include: ['styled-components','react-scroll-parallax','react-marquee-slider'],
   },
+  build: {
+     rollupOptions: {
+        external: ['react-scroll-parallax'],
+     },
+  },
 })

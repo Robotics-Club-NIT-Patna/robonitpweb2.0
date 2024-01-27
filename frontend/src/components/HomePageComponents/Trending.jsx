@@ -1,3 +1,4 @@
+import React from 'react'
 import TrendingCard from "./TrendingCard";
 import trendingData from "../../trendingData";
 

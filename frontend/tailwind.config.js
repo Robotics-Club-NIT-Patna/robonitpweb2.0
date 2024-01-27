@@ -22,6 +22,9 @@ export default {
           'bg1':'url("https://familyindustrieslive.com/wp-content/uploads/2023/06/IMG_2767-2.jpg")',
           'bg1':'url("https://familyindustrieslive.com/wp-content/uploads/2023/06/IMG_2767-2.jpg")',
           'bg1':'url("https://familyindustrieslive.com/wp-content/uploads/2023/06/IMG_2767-2.jpg")'
+       },
+       fontSize:{
+           'customFont':'15rem'
        }
     },
   },
