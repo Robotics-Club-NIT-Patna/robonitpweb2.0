@@ -3,7 +3,7 @@ import { MoveRight } from 'lucide-react';
 const Hero = () => {
   return (
     <>
-        <div className='flex flex-col lg:flex-row gap-10 -z-30'>
+        <div className='flex flex-col 2xl:flex-row gap-10 -z-30'>
               <div className=' flex flex-col items-center sm:justify-center lg:justify-center lg:items-center lg:w-11/12 -z-30 ' >
                    <div className='relative justify-center items-center h-48 sm:h-64  overflow-hidden flex  lg:w-full ' style={{width:'77%'}}>
                          <img className='h-52 -z-30 sm:h-70 sm:w-4/5 lg:w-full lg:h-full' src='https://i.pinimg.com/originals/3b/aa/c0/3baac05f19c1d4f2f3ba69a534cb629c.gif' alt=''/>
@@ -16,8 +16,8 @@ const Hero = () => {
                    <div className='flex justify-center items-center font-anton mt-5 w-3/5 sm:w-4/6'>
                          <h2>Our on-site merch customization experiences transform your event attendees into artists, creators, and product designers.</h2>
                    </div>
-                   <div className='mt-5'>
-                        <button className='bg-green-400 p-2 text-lg font-bold rounded-2xl flex items-center'>Get Started<MoveRight/></button>
+                   <div className='mt-5 '>
+                        <button className='bg-green-400 cursor-pointer p-2 text-lg font-bold rounded-2xl flex items-center '>Get Started<MoveRight/></button>
                         
                    </div>
               </div>

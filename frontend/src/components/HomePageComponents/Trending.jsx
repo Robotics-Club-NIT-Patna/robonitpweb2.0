@@ -5,9 +5,9 @@ const Trending = () => {
         <>
             <div className='m-10'>
                 <div className='heading'>
-                    <div className='font-anton text-8xl text-white'>WHAT'S</div>
+                    <div className='font-anton text-6xl  sm:text-9xl text-white'>WHAT'S</div>
                     <div
-                        className='font-anton text-8xl'
+                        className='font-anton text-6xl  sm:text-9xl'
                         style={{
                             WebkitTextStroke: '1px white',
                             color: 'black',
