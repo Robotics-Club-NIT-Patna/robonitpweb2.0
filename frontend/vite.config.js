@@ -9,7 +9,7 @@ export default defineConfig({
   },
   build: {
      rollupOptions: {
-        external: ['react-scroll-parallax/dist/index.d.ts'],
-     }
+        external: ['react-scroll-parallax'],
+     },
   },
 })
