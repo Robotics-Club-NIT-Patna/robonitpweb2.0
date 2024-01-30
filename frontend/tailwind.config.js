@@ -25,7 +25,10 @@ export default {
        },
        fontSize:{
            'customFont':'15rem'
-       }
+       },
+       zIndex:{
+        'customZ': '100',
+       },
     },
   },
   plugins: [],

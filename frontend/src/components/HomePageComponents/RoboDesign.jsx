@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Buttons from '../Buttons'
 import '../../App.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const RoboDesign = () => {
+
+    useEffect(()=>{
+        Aos.init({duration: 1000})
+    },[])
+
     return (
         <>
-            <div className='flex flex-col sm:flex-row sm:justify-center sm:items-center mt-10 ml-5 mr-5 gap-10'>
+            <div data-aos='fade-up' className='flex flex-col sm:flex-row sm:justify-center sm:items-center mt-10 ml-5 mr-5 gap-10 '>
                 <div className='div1 flex flex-col  w-2/4 gap-5'>
                     <div className='font-anton text-5xl sm:text-6xl text-white'>
                         <h1>DESIGN</h1>
