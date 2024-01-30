@@ -48,3 +48,7 @@ font-family: 'Ultra', serif;
 .overflow-hidden {
   overflow: hidden;
 }
+
+.transition-for-bg{
+  transition: background-color 0.3s ease-in-out !important;
+}

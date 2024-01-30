@@ -4,7 +4,7 @@ const ExperienceCard = ({title, imageUrl, rotation}) => {
 
 
     const parallax = useParallax({
-      translateX: [10, -100],
+      translateX: [10, -450],
       duration:0.2
     })
 

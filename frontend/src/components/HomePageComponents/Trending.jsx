@@ -19,7 +19,7 @@ const Trending = () => {
 
       {/* TrendingCard */}
 
-      <div className="grid md:grid-cols-3 grid-rows-3 gap-16 md:mx-6 mt-16 mb-10 justify-center items-center overflow-x-scroll overflow-y-hidden bg-yellow-400 h-[160rem]">
+      <div className="grid md:grid-cols-3 grid-rows-1  md:gap-4 md:mx-6 mt-16 mb-10 justify-center overflow-x-scroll overflow-y-hidden">
         {trendingData.map((item) => (
           <TrendingCard
             key={item.id}
