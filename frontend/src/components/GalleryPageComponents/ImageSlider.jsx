@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
 
-      <div className='flex flex-row mt-20'>
+      <div className=' hidden lg:visible md:flex flex-row mt-20'>
         <div className='w-2/4'>
           <div className='min-h-screen flex just-center items-center bg-bg1  bg-black bg-no-repeat bg-cover sticky top-0 -z-50' ></div>
           <div className='min-h-screen flex just-center items-center bg-bg1  bg-black bg-no-repeat bg-cover sticky top-0 -z-40' ></div>
@@ -19,7 +19,7 @@ const App = () => {
 
 
         <div className='bg-orange-400 w-2/4'>
-          <div className='bg-orange-400 min-h-screen flex flex-col items-center justify-center p-20'>
+          <div className=' bg-orange-400 min-h-screen flex flex-col items-center justify-center p-20'>
             <div className='flex gap-4'>
               <h1 className='text-black font-anton text-7xl'>CLASSIC</h1>
               <h1
@@ -78,7 +78,73 @@ const App = () => {
 
         </div>
 
+        
+
       </div>
+
+
+      {/* smaller screens */}
+
+      <div className='visible lg:hidden bg-orange-400'>
+          <div className=' bg-orange-400  flex flex-col items-center justify-center p-8 pt-14 pb-14'>
+            <div className='flex gap-4'>
+              <h1 className='text-black font-anton text-5xl'>CLASSIC</h1>
+              <h1
+                style={{
+                  WebkitTextStroke: '1px black',
+                  textStroke: '1px black'
+                }}
+                className='font-anton text-5xl'
+              >DESIGN</h1>
+            </div>
+            <div className='mt-6 text-black '>
+              <p className='text-md text-center pl-8 pr-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum id dignissimos nesciunt velit autem magnam delectus consequatur consequuntur dolores, optio nisi, minima nostrum a temporibus sequi ratione ullam. Accusamus quia architecto quis aspernatur? Libero quasi animi earum, praesentium neque mollitia.</p>
+            </div>
+            <div className='mt-10'>
+              <Buttons buttonText='Get Started'/>
+            </div>
+          </div>
+
+          <div className=' bg-green-400  flex flex-col items-center justify-center p-8 pt-14 pb-14'>
+            <div className='flex gap-4'>
+              <h1 className='text-black font-anton text-5xl'>CLASSIC</h1>
+              <h1
+                style={{
+                  WebkitTextStroke: '1px black',
+                  textStroke: '1px black'
+                }}
+                className='font-anton text-5xl'
+              >DESIGN</h1>
+            </div>
+            <div className='mt-6 text-black '>
+              <p className='text-md text-center pl-8 pr-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum id dignissimos nesciunt velit autem magnam delectus consequatur consequuntur dolores, optio nisi, minima nostrum a temporibus sequi ratione ullam. Accusamus quia architecto quis aspernatur? Libero quasi animi earum, praesentium neque mollitia.</p>
+            </div>
+            <div className='mt-10'>
+              <Buttons buttonText='Get Started'/>
+            </div>
+          </div>
+
+          <div className=' bg-red-500  flex flex-col items-center justify-center p-8 pt-14 pb-14'>
+            <div className='flex gap-4'>
+              <h1 className='text-black font-anton text-5xl'>CLASSIC</h1>
+              <h1
+                style={{
+                  WebkitTextStroke: '1px black',
+                  textStroke: '1px black'
+                }}
+                className='font-anton text-5xl'
+              >DESIGN</h1>
+            </div>
+            <div className='mt-6 text-black'>
+              <p className='text-md text-center pl-8 pr-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum id dignissimos nesciunt velit autem magnam delectus consequatur consequuntur dolores, optio nisi, minima nostrum a temporibus sequi ratione ullam. Accusamus quia architecto quis aspernatur? Libero quasi animi earum, praesentium neque mollitia.</p>
+            </div>
+            <div className='mt-10'>
+              <Buttons buttonText='Get Started'/>
+            </div>
+          </div>
+
+        </div>
+
     </>
   );
 };

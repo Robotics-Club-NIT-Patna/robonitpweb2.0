@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useParallax } from 'react-scroll-parallax'
 const ExperienceCard = ({title, imageUrl, rotation}) => {
 
@@ -7,6 +7,14 @@ const ExperienceCard = ({title, imageUrl, rotation}) => {
       translateX: [10, -450],
       duration:0.2
     })
+
+    useEffect(()=>{
+      
+        const threshold = 200;
+        const isStickyNow = window.scrollY.value;
+        console.log('hi', isStickyNow)
+      
+    },[])
 
   return (
     <div className='sticky top-10' ref={parallax.ref}>
@@ -23,3 +31,5 @@ const ExperienceCard = ({title, imageUrl, rotation}) => {
 }
 
 export default ExperienceCard
+
+
