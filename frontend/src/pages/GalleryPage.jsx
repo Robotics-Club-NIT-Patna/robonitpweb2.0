@@ -5,11 +5,14 @@ import CardMarquee from '../components/HomePageComponents/CardMarquee'
 
 const GalleryPage = () => {
   return (
-         <>
-            <CardMarquee />
-            <StickyImage/>
-            <ImageSlider/>
-         </>
+    <>
+      <div className='mt-10'>
+        <CardMarquee />
+      </div>
+
+      <StickyImage />
+      <ImageSlider />
+    </>
   )
 }
 

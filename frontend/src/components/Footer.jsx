@@ -8,7 +8,7 @@ import Buttons from '../components/Buttons'
 const Footer = () => {
   return (
     <>
-      <div className='mt-20 m-10 flex gap-20 justify-center'>
+      <div className='mt-20 m-10 flex flex-col  gap-2 justify-center md:flex-row sm:gap-5 md:gap-5 lg:gap-40 '>
             <div className='flex flex-col gap-5'>
                 <div className='h-16 w-32 overflow-hidden'><img src='./images/logo.png' alt=''  className='object-cover'/></div>
                 <div className='flex gap-2'>

@@ -52,3 +52,11 @@ font-family: 'Ultra', serif;
 .transition-for-bg{
   transition: background-color 0.3s ease-in-out !important;
 }
+
+/* Marqueetwo */
+
+.marquee_container{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
