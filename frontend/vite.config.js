@@ -4,12 +4,4 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  optimizeDeps: {
-    include: ['styled-components','react-scroll-parallax','react-marquee-slider'],
-  },
-  build: {
-     rollupOptions: {
-        external: ['react-scroll-parallax'],
-     },
-  },
 });

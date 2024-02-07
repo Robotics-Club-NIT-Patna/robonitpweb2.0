@@ -1,7 +1,6 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
 import { ArrowBigRight } from 'lucide-react'
-import AAP from '../../App.css'
 
 const MarqueeTwo = () => {
   return (
