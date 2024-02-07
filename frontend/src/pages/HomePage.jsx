@@ -14,14 +14,14 @@ const HomePage = ({isOpen}) => {
         <>
           <Hero/>
           <Roboexperience/>
-          <MarqueeOne/>
+          {/* <MarqueeOne/> */}
           <Experience/>
           <RoboDesign/>
           <PelletsGame/>
           <CaseStudies/>  
           <MarqueeTwo/>  
           <Trending/>
-          <CardMarquee/>
+          {/* <CardMarquee/> */}
         </>
     )
 }

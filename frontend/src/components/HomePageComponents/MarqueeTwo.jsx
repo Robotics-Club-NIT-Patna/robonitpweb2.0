@@ -1,5 +1,5 @@
 import React from 'react'
-import Marquee from 'react-marquee-slider'
+import Marquee from "react-fast-marquee";
 import { ArrowBigRight } from 'lucide-react'
 import AAP from '../../App.css'
 
@@ -13,10 +13,10 @@ const MarqueeTwo = () => {
             <div className='flex-grow'>
               <div className='marquee_container bg-green-400  w-full h-20  rounded-3xl overflow-hidden'>
                 <div className='w-full'>
-                <Marquee direction=''>
-                  <div className='text-6xl '>hbdb</div>
-                  <div className=' text-6xl'>hbdb</div>
-                </Marquee>
+                  <Marquee>
+                    <div className='text-6xl '>hbdb</div>
+                    <div className=' text-6xl'>hbdb</div>
+                  </Marquee>
                 </div>
               </div>
             </div>
@@ -27,24 +27,22 @@ const MarqueeTwo = () => {
             <div>TO REALITY</div>
             <div className='relative flex-grow'>
               <div className='  h-20 w-full rounded-3xl bg-yellow-200 ' >
-                <Marquee direction=''>
+                <Marquee>
 
                   <div className='text-black top-2/4'><ArrowBigRight /></div>
                   <div className='text-black top-2/4 ml-10'><ArrowBigRight /></div>
                   <div className='text-black top-2/4 ml-10'><ArrowBigRight /></div>
-
                 </Marquee>
-
               </div>
             </div>
           </div>
           <div className='flex flex-row items-center gap-3 font-anton text-8xl text-white'>
             <div
-                style={{
-                  WebkitTextStroke: '1px white',
-                  color: 'black',
-                  textStroke: '1px white'
-                }}
+              style={{
+                WebkitTextStroke: '1px white',
+                color: 'black',
+                textStroke: '1px white'
+              }}
             >SINCE</div>
             <div
               style={{
@@ -56,7 +54,7 @@ const MarqueeTwo = () => {
 
             <div className='flex-grow'>
               <div className='bg-green-400 w-full h-20 relative rounded-3xl overflow-hidden'>
-                <Marquee direction=''>
+                <Marquee>
                   <div className='text-6xl '>hbdb</div>
                   <div className=' text-6xl'>hbdb</div>
                 </Marquee>

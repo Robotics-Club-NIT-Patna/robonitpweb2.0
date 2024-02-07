@@ -1,44 +1,47 @@
 /* NavBar.css */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Ultra&display=swap');
+
 .font-anton {
-    font-family: 'Anton', sans-serif;
-  }
-.font-ultra{
-font-family: 'Anton', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Ultra', serif;
-}  
-  body{
-    overflow-x: hidden ;
-  }
+  font-family: 'Anton', sans-serif;
+}
 
-  .rectangle{
-    background-color: green;
-  }
+.font-ultra {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ultra', serif;
+}
 
-  /* navbar styles */
+body {
+  overflow-x: hidden;
+}
 
-  .rectangle:hover .circle{
-    animation: initialIncrease 1s ease-out forwards, fastIncrease 0.2s ease-in forwards;
-    opacity: 1;
+.rectangle {
+  background-color: green;
+}
+
+/* navbar styles */
+
+.rectangle:hover .circle {
+  animation: initialIncrease 1s ease-out forwards, fastIncrease 0.2s ease-in forwards;
+  opacity: 1;
 }
 
 @keyframes initialIncrease {
-    to{
-        transform: scale(1);
-    }
+  to {
+    transform: scale(1);
+  }
 }
 
-@keyframes fastIncrease{
-    to{
-        transform: scale(4.4);
-    }
+@keyframes fastIncrease {
+  to {
+    transform: scale(4.4);
+  }
 }
 
 /* case studies style */
 
-.custom-long-duration{
+.custom-long-duration {
   transition-duration: 2s !important;
 
 }
@@ -49,13 +52,13 @@ font-family: 'Ultra', serif;
   overflow: hidden;
 }
 
-.transition-for-bg{
+.transition-for-bg {
   transition: background-color 0.3s ease-in-out !important;
 }
 
 /* Marqueetwo */
 
-.marquee_container{
+.marquee_container {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
