@@ -4,7 +4,7 @@ import cardData from '../../../src/cardData'
 import { useState, useEffect, useRef } from 'react'
 // import style from 'react-syntax-highlighter/dist/esm/styles/hljs/a11y-dark'
 // import { on } from 'npm'
-import Carousel from './Carousel'
+import Carousels from './Carousels'
 const Experience = () => {
 
 
@@ -47,7 +47,7 @@ const Experience = () => {
           </div>
         </div>
         <div className='-mt-10'>
-          <Carousel />
+          <Carousels />
         </div>
 
       </div>

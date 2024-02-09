@@ -13,7 +13,9 @@ export default {
        backgroundColor:{
           'customPink':'#f84b87',
           'customBlueOne':'#0ea5e9',
-          'customBlueTwo':'#60a5fa'
+          'customBlueTwo':'#60a5fa',
+          'neonGreen': '#a6fd29',
+          'neonBlue': '#55ffe1'
        },
        textColor:{
            'navbarTextColor':'#6ff13e'
