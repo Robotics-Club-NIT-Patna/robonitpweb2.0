@@ -1,8 +1,15 @@
 import React from 'react'
+import { useEffect } from 'react'
 import TeamMemberCard from './TeamMemberCard'
 import TeamData from './TeamData'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const TeamMember = () => {
+  useEffect(()=>{
+    Aos.init({duration: 1000})
+},[])
+
   console.log(TeamData.map(member => member.position));
 
   return (
@@ -16,7 +23,7 @@ const TeamMember = () => {
       >Team</div>
 
       {TeamData.map((item) => (
-        <div>
+        <div data-aos={item.id % 2 ===0? 'fade-left': 'fade-right'}>
           <TeamMemberCard
             id={item.id}
             name={item.name}
