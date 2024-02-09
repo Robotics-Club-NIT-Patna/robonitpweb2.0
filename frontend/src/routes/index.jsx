@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import { HomePage, About,GalleryPage,TeamsPage } from "../pages"
+import { HomePage, About,GalleryPage,TeamsPage, EventPage, ProjectPage } from "../pages"
 import ScrollToTop from '../hooks/useScrollToTop';
 import ErrorBoundary from '../components/ErrorBoundary';
 import NavBar from "../components/NavBar";
@@ -27,6 +27,14 @@ const index = () => {
         {
             path: "/teams",
             element: <TeamsPage />
+        },
+        {
+            path: "/events",
+            element: <EventPage />
+        },
+        {
+            path: "/projects",
+            element: <ProjectPage />
         }
 
     ]

@@ -1,4 +1,4 @@
-import Buttons from "../Buttons";
+import Buttons from "../../Buttons";
 
 function InfoCard({img,title,desc}) {
     return (<div className="flex flex-col flex-wrap rounded-[2rem] bg-[#191919] p-[40px]">

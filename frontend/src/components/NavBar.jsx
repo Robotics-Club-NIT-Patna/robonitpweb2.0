@@ -52,7 +52,7 @@ const NavBar = () => {
           currentSize += 5;
           setTimeout(increaseSize, 0.1)
         } else {
-          setCircleSize(600);
+          setCircleSize(1000);
         }
       };
       increaseSize();
@@ -76,7 +76,7 @@ const NavBar = () => {
       <div className='flex items-center h-20 gap-18 p-5 font-mono sticky top-0 bg-transparent backdrop-blur-md z-customZ'>
         <div className='-ml-20 w-fit xl:w-full'>
           <Link to="/">
-            <div className='p-2 items-center ml-20 relative '>
+            <div className='p-2 items-center ml-20 relative'>
               <img src='./images/logo.png' alt='' className='h-16 sm:h-20 cursor-pointer' />
             </div>
           </Link>
@@ -108,7 +108,7 @@ const NavBar = () => {
 
         {/* accordion */}
 
-        <div className='fixed top-0 right-0 xl:hidden p-8 font-anton flex justify-end w-full'>
+        <div className='fixed top-0 right-0 xl:hidden p-8 font-anton flex justify-end w-[20vw]'>
 
           <div onClick={toggleAccordion}> {!isOpen && <div className=' w-full cursor-pointer'><AlignJustify size={30} /></div>}
 
@@ -118,7 +118,7 @@ const NavBar = () => {
             <div className=''>
               <div className={`circle bg-black fixed  top-0 right-0  rounded-bl-full ${isOpen ? 'transition-all duration-100 ease-in-out' : ''}`} style={{ width: `${circleSize}%`, height: `${circleSize}%` }}></div>
               <div className='absolute top-0 right-0  p-8 font-anton flex justify-end  w-full'>
-                <div onClick={toggleAccordion} ><div className=' w-full cursor-pointer '><X size={30} /></div></div>
+                <div onClick={toggleAccordion} ><div className=' w-full cursor-pointer'><X size={30} /></div></div>
               </div>
 
               <div className=' fixed  gap-2 right-0 p-4 w-full mt-10 flex-col justify-center items-center cursor-pointer  h-full text-white '>
