@@ -8,7 +8,7 @@ const TeamMemberCard = ({name,post,linkedin,instagram, github, twitter,bgcolor,i
   
   return (
     <>
-      <div className={`flex flex-col-reverse md:flex-row justify-center mt-20 gap-20 items-center`}>
+      <div className={`flex flex-col-reverse ${position} justify-center mt-20 gap-20 items-center`}>
                  <div className='p-5 h-fit -mt-20 md:mt-0'>
                       <div><h1 className='text-3xl text-white'>{name}</h1></div>
                       <div><p className='text-gray-400 text-xl'>{post}</p></div>
@@ -23,7 +23,7 @@ const TeamMemberCard = ({name,post,linkedin,instagram, github, twitter,bgcolor,i
                  <div className='flex justify-center items-center h-[20rem] -mt-20 md:mt-0'>
                        <div className={`h-[16rem] w-[24rem] ${bgcolor} rounded-xl`}></div>
                        <div className={`h-[16rem] w-[24rem] ${bgcolor} shadow-[-1px_-1px_30px_0_rgba(0,0,0,0.3)] mt-10 ${margin}  rounded-md overflow-hidden flex justify-center items-center`}>
-                            <img src='./images/arduino.jpg' alt='' className='h-full w-full p-2 object-cover'/>
+                            <img src={image} alt='' className='h-full  p-2 object-cover'/>
                        </div>
                  </div>
             </div>
