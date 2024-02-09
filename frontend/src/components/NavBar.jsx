@@ -73,7 +73,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className='xl:flex gap-18 p-5 font-mono sticky top-0 bg-transparent backdrop-blur-md z-customZ'>
+      <div className='flex items-center h-20 gap-18 p-5 font-mono sticky top-0 bg-transparent backdrop-blur-md z-customZ'>
         <div className='-ml-20 w-fit xl:w-full'>
           <Link to="/">
             <div className='p-2 items-center ml-20 relative '>
@@ -92,11 +92,11 @@ const NavBar = () => {
           <Link to="/gallery">
             <div className=' hover:text-navbarTextColor text-xl rounded-md cursor-pointer p-2  items-center font-bold'>Gallery</div>
           </Link>
-          <Link to="/stories">
-            <div className=' hover:text-navbarTextColor text-xl rounded-md cursor-pointer  p-2  items-center font-bold'>Stories</div>
+          <Link to="/events">
+            <div className=' hover:text-navbarTextColor text-xl rounded-md cursor-pointer  p-2  items-center font-bold'>Events</div>
           </Link>
-          <Link to="/experiences">
-            <div className=' hover:text-navbarTextColor text-xl rounded-md  cursor-pointer p-2 items-center font-bold'>Experiences</div>
+          <Link to="/projects">
+            <div className=' hover:text-navbarTextColor text-xl rounded-md  cursor-pointer p-2 items-center font-bold'>Projects</div>
           </Link>
           <Link to="/getstarted">
             <div className='rectangle relative p-4 h-14 w-40 flex justify-center items-center text-xl bg-white rounded-2xl text-black cursor-pointer ml-20 overflow-hidden hover:text-white'>
@@ -131,11 +131,11 @@ const NavBar = () => {
                 <Link to="/gallery" data-aos='fade-down' data-aos-delay='900'>
                   <div className='hover:bg-white transition-for-bg hover:text-black rounded-md cursor-pointer p-2  flex justify-center items-center text-5xl mt-5 ' style={{ opacity, transition: 'opacity 0.5s ease-in-out' }} onClick={toggleAccordion}>Gallery</div>
                 </Link>
-                <Link to="/stories" data-aos='fade-down' data-aos-delay='1200'>
-                  <div className='hover:bg-white transition-for-bg hover:text-black rounded-md cursor-pointer  p-2  flex justify-center items-center text-5xl mt-5' style={{ opacity, transition: 'opacity 0.6s ease-in-out' }} onClick={toggleAccordion}>Stories</div>
+                <Link to="/events" data-aos='fade-down' data-aos-delay='1200'>
+                  <div className='hover:bg-white transition-for-bg hover:text-black rounded-md cursor-pointer  p-2  flex justify-center items-center text-5xl mt-5' style={{ opacity, transition: 'opacity 0.6s ease-in-out' }} onClick={toggleAccordion}>Events</div>
                 </Link>
-                <Link to="/experiences" data-aos='fade-down' data-aos-delay='1500'>
-                  <div className='hover:bg-white transition-for-bg hover:text-black rounded-md  cursor-pointer p-2 flex justify-center items-center text-5xl mt-5' style={{ opacity, transition: 'opacity 0.7s ease-in-out' }} onClick={toggleAccordion}>Experiences</div>
+                <Link to="/projects" data-aos='fade-down' data-aos-delay='1500'>
+                  <div className='hover:bg-white transition-for-bg hover:text-black rounded-md  cursor-pointer p-2 flex justify-center items-center text-5xl mt-5' style={{ opacity, transition: 'opacity 0.7s ease-in-out' }} onClick={toggleAccordion}>Projects</div>
                 </Link>
                 <Link to="/getstarted" data-aos='fade-down' data-aos-delay='1800'>
                   <div className='flex justify-center  mt-10 w-full' onClick={toggleAccordion}>

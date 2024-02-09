@@ -5,7 +5,7 @@ const carouselCardData =[
        head1:'ANY BOT',
        head2:'ANY TIME.',
        para:'Unleash infinite possibilities at your event.',
-       backgroundColor:'customPink'
+       backgroundColor:'bg-customPink'
     },
     {
        id:2, 
@@ -13,7 +13,7 @@ const carouselCardData =[
        head1:'ANY BOT',
        head2:'ANY TIME.',
        para:'Unleash infinite possibilities at your event.',
-       backgroundColor:'#f84b87'
+       backgroundColor:'bg-neonGreen'
     },
     {
       id:3, 
@@ -21,7 +21,7 @@ const carouselCardData =[
       head1:'ANY BOT',
       head2:'ANY TIME.',
       para:'Unleash infinite possibilities at your event.',
-      backgroundColor:'#f84b87'
+      backgroundColor:'bg-neonBlue'
    }
 ];
 

@@ -6,11 +6,11 @@ const CarouselCard = ({imageUrl,head1, head2, backgroundColor,para}) => {
   return (
    <>
        
-          <div className='flex-col rounded-3xl bg-slate-50 ' >
-               <div className=' main flex justify-center overflow-hidden  bg-green-500 ' style={{width:'24rem',height:'22rem'}}>
-                    <img className=' w-auto' src={imageUrl} alt='' style={{height:'23rem'}}/>
+          <div className='flex  flex-col  sm:flex-row rounded-3xl overflow-hidden bg-slate-50 h-[80vh] flex-shrink-0  w-[90vw]' >
+               <div className='flex justify-center overflow-hidden  bg-green-500 w-2/4'>
+                    <img className='cover' src={imageUrl} alt='' />
                </div>
-               <div className='p-8  bg-customPink' style={{height:'20rem'}}>
+               <div className={`p-8  ${backgroundColor} w-2/4`}>
                     <div className='flex justify-center  '><h1 className='text-black text-7xl font-anton'>{head1}</h1></div>
                     <div className=''
                          style={{
