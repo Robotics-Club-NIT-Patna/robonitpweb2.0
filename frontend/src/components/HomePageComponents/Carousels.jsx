@@ -1,14 +1,8 @@
 import React from 'react'
 import CarouselCard from './CarouselCard'
 import carouselCardData from '../../carouselCardData'
-// import Carousel from 'react-elastic-carousel'
 const Carousels = () => {
 
-  // const breakPoints = [
-  //  {width: 1, itemsToShow: 1},
-  //  {width: 1000, itemsToShow: 2},
-  //  {width: 768, itemsToShow: 3}
-  // ];
 
   return (
     <>

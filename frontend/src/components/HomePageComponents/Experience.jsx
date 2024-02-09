@@ -2,8 +2,6 @@ import React from 'react'
 import ExperienceCard from './ExperienceCard'
 import cardData from '../../../src/cardData'
 import { useState, useEffect, useRef } from 'react'
-// import style from 'react-syntax-highlighter/dist/esm/styles/hljs/a11y-dark'
-// import { on } from 'npm'
 import Carousels from './Carousels'
 const Experience = () => {
 
@@ -26,7 +24,7 @@ const Experience = () => {
 
       {/* ExperienceCard */}
       <div className='flex flex-col -mt-40'>
-        <div className='h-[70rem] mb-10  sticky top-32  bg-black bg-cover bg-no-repeat -z-10'>
+        <div className='h-[80rem] md:h-[70rem] mb-10  sticky top-32  bg-black bg-cover bg-no-repeat -z-10'>
           <div className={`flex gap-10  mb-10 relative -z-10 overflow-x-scroll overflow-y-hidden `} 
               style={{
                 WebkitOverflowScrolling: 'touch', // For smooth scrolling in WebKit

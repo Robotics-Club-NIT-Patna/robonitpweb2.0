@@ -3,6 +3,9 @@ import TrendingCard from "./TrendingCard";
 import trendingData from "../../trendingData";
 
 const Trending = () => {
+
+  const firstThreeItems = trendingData.slice(0, 3);
+
   return (
     <div className="flex flex-col md:mx-4 items-center justify-center md:justify-start">
       <div className='ml-8 mr-8'>
@@ -20,7 +23,7 @@ const Trending = () => {
       {/* TrendingCard */}
 
       <div className="grid md:grid-cols-3 grid-rows-1  md:gap-4 md:mx-6 mt-16 mb-10 justify-center overflow-x-scroll overflow-y-hidden">
-        {trendingData.map((item) => (
+        {firstThreeItems.map((item) => (
           <TrendingCard
             key={item.id}
             title={item.title}
