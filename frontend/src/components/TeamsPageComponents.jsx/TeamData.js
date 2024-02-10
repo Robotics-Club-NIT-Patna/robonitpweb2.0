@@ -22,7 +22,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/IMG_20240106_133755(1).jpg',
             'bgcolor':'bg-gradient-to-r from-blue-500 to-blue-400',
             'position':'md:flex-row-reverse',
             'margin':'ml-[-25.4rem]'
@@ -36,7 +36,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/WhatsApp Image 2022-01-02 at 2.49.43 PM - KAPISH VARSHNEY.jpeg',
             'bgcolor':'bg-gradient-to-r from-green-500 to-green-400',
             'position':'md:flex-row',
             'margin':'ml-[-22.4rem]'
@@ -51,7 +51,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/IMG-20221225-WA0000 - RATHOD NIHARIKA(1).jpg',
             'bgcolor':'bg-gradient-to-r from-yellow-500 to-orange-500',
             'position':'md:flex-row-reverse',
             'margin':'ml-[-25.4rem]'
@@ -65,7 +65,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/IMG_20221122_195115930 (1)(1).jpg',
             'bgcolor':'bg-gradient-to-r from-purple-200 to-blue-400',
             'position':'md:flex-row',
             'margin':'ml-[-25.4rem]'
@@ -79,7 +79,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/IMG-20240106-WA0001(2).jpg',
             'bgcolor':'bg-gradient-to-r from-pink-400 to-yellow-200',
             'position':'md:flex-row-reverse',
             'margin':'ml-[-25.4rem]'
@@ -93,7 +93,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/Luban_1704540919862(1).jpg',
             'bgcolor':'bg-gradient-to-l from-green-500 to-blue-400',
             'position':'md:flex-row',
             'margin':'ml-[-25.4rem]'
@@ -107,7 +107,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/IMG_20220729_130835(1).jpg',
             'bgcolor':'bg-gradient-to-r from-red-500 to-pink-200',
             'position':'md:flex-row-reverse',
             'margin':'ml-[-25.4rem]'
@@ -121,7 +121,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/WhatsApp Image 2023-01-15 at 22.00.02 - ANKUR SINGH.jpg',
             'bgcolor':'bg-gradient-to-l from-blue-500 to-blue-400',
             'position':'md:flex-row',
             'margin':'ml-[-25.4rem]'
@@ -135,7 +135,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/WhatsApp Image 2023-02-02 at 23.43.30.jpg',
             'bgcolor':'bg-gradient-to-r from-gray-600 to-purple-400',
             'position':'md:flex-row-reverse',
             'margin':'ml-[-25.4rem]'
@@ -149,7 +149,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/DSCN1578 - SURAJ KUMAR.JPG',
             'bgcolor':'bg-gradient-to-l from-pink-500 to-green-400',
             'position':'md:flex-row',
             'margin':'ml-[-25.4rem]'
@@ -163,7 +163,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/IMG_20230104_134925 - ANJALI RAJ.jpg',
             'bgcolor':'bg-gradient-to-r from-yellow-700 to-gray-300',
             'position':'md:flex-row-reverse',
             'margin':'ml-[-25.4rem]'
@@ -177,7 +177,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/1672844893995 - LIPI ADITI.jpg',
             'bgcolor':'bg-gradient-to-l from-yellow-500 to-yellow-400',
             'position':'md:flex-row',
             'margin':'ml-[-25.4rem]'
@@ -191,7 +191,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/1673700893166 - NANDANI KUMARI.jpg',
             'bgcolor':'bg-gradient-to-r from-green-500 to-green-400',
             'position':'md:flex-row-reverse',
             'margin':'ml-[-25.4rem]'
@@ -205,7 +205,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/IMG_20230105_191131 - ANKIT KUMAR.jpg',
             'bgcolor':'bg-gradient-to-l from-red-500 to-red-400',
             'position':'md:flex-row',
             'margin':'ml-[-25.4rem]'
@@ -219,7 +219,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/IMG_20230929_165540(1).jpg',
             'bgcolor':'bg-gradient-to-r from-pink-500 to-pink-400',
             'position':'md:flex-row-reverse',
             'margin':'ml-[-25.4rem]'
@@ -233,7 +233,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/fe41179d-f729-4bb0-a02d-476fd28eae1b - RAJA KUMAR.jpg',
             'bgcolor':'bg-gradient-to-r from-orange-500 to-orange-400',
             'position':'md:flex-row',
             'margin':'ml-[-25.4rem]'
@@ -247,7 +247,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/Picsart_23-01-06_09-40-54-757 - SHIVANGI SINGH.jpg',
             'bgcolor':'bg-gradient-to-r from-green-500 to-blue-400',
             'position':'md:flex-row-reverse',
             'margin':'ml-[-25.4rem]'
@@ -261,7 +261,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/IMG_20211216_185110 - KHUSHI VERMA.jpg',
             'bgcolor':'bg-gradient-to-l from-gray-500 to-blue-400',
             'position':'md:flex-row',
             'margin':'ml-[-25.4rem]'
@@ -275,7 +275,7 @@ const TeamData =[
             'github':'',
             'twitter':'',
  
-            'image':'',
+            'image':'images/postBearers/1675537875148.jpg',
             'bgcolor':'bg-gradient-to-r from-pink-500 to-blue-300',
             'position':'md:flex-row-reverse',
             'margin':'ml-[-25.4rem]'
