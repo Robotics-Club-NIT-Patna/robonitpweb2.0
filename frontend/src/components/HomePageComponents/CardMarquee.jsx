@@ -1,5 +1,5 @@
 import React from 'react'
-import Marquee from "react-marquee-slider"
+import Marquee from "react-fast-marquee"
 import { Unplug } from 'lucide-react';
 const CardMarquee = () => {
 

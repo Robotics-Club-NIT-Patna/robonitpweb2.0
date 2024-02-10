@@ -4,7 +4,7 @@ import { useParallax } from 'react-scroll-parallax'
 
 const ExperienceCard = ({ title, imageUrl, rotation }) => {
   const parallax = useParallax({
-    translateX: [10, -450],
+    translateX: [170, -450],
     duration: 0.2
   })
 

@@ -21,7 +21,7 @@ const HomePage = ({isOpen}) => {
           <CaseStudies/>  
           <MarqueeTwo/>  
           <Trending/>
-          {/* <CardMarquee/> */}
+          <CardMarquee/>
         </>
     )
 }

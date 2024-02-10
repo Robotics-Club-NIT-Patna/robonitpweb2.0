@@ -1,8 +1,11 @@
 import React from 'react'
+import Tags from '../components/Tags'
 
 const ProjectPage = () => {
   return (
-    <div>ProjectPage</div>
+    <div>
+        <Tags/>
+    </div>
   )
 }
 

@@ -51,7 +51,7 @@ const MarqueeTwo = () => {
                 color: 'black',
                 textStroke: '1px white'
               }}
-            >2018</div>
+            >2016</div>
             <div className='flex-grow '>
               <div className='flex  items-center overflow-y-hidden bg-green-400 w-[46vw] sm:w-auto  h-[8vw] sm:h-[5vw] relative rounded-3xl overflow-hidden'>
                 <Marquee>

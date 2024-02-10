@@ -23,7 +23,7 @@ const CaseStudies = () => {
           }}>
           RECENT
         </h1>
-        <h1 className='font-anton text-8xl text-white'>CASE STUDIES</h1>
+        <h1 className='font-anton text-8xl text-white'>ACTIVITIES</h1>
       </div>
 
       

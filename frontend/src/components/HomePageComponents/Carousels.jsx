@@ -6,7 +6,7 @@ const Carousels = () => {
 
   return (
     <>
-      <div className='flex ml-10 overflow-x-scroll overflow-y-hidden gap-10'>
+      <div className='flex overflow-x-scroll overflow-y-hidden gap-10'>
           {carouselCardData.map((it) => (
           
                 <CarouselCard key={it.id} imageUrl={it.imageUrl} head1={it.head1} head2={it.head2} backgroundColor={it.backgroundColor} para={it.para} />
