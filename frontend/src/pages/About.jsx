@@ -1,9 +1,12 @@
 import React from 'react'
+import AboutInfo from '../components/AboutPageComponent/AboutInfo';
 
 const About = () => {
   return (
     <>
-    <div>about</div>
+       <div>
+           <AboutInfo/>
+       </div>
     </>
   )
 }

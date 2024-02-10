@@ -20,14 +20,14 @@ const RecentCarousel = () => {
 
     return (
         <>
-            <div className='mt-10'>
-                <div className='flex flex-col  sm:flex-row gap-6 mb-20 h-[40vh]' style={{backgroundImage: 'linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)),url("/images/arduino.jpg")', backgroundSize:'cover'}}>
+            <div className=''>
+                <div className='flex flex-col mt-10 sm:flex-row gap-6 mb-10 ' >
                     <div className='font-anton text-8xl text-white'>UPCOMING</div>
                     <div className='font-anton text-8xl'
                         style={{
-                            WebkitTextStroke: '2px black',
-                            color: 'transparent',
-                            textStroke: '2px black'
+                            WebkitTextStroke: '2px white',
+                            color: 'black',
+                            textStroke: '2px white'
                         }}
                     >EVENTS</div>
                 </div>

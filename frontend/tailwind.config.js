@@ -18,7 +18,11 @@ export default {
           'neonBlue': '#55ffe1'
        },
        textColor:{
-           'navbarTextColor':'#6ff13e'
+           'navbarTextColor':'#6ff13e',
+           'neonBlue': '#55ffe1',
+           'customPink':'#f84b87',
+
+
        },
        backgroundImage:{
           'bg1':'url("https://familyindustrieslive.com/wp-content/uploads/2023/06/IMG_2767-2.jpg")',
