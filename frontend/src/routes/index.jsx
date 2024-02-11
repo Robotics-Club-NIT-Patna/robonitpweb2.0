@@ -4,6 +4,7 @@ import ScrollToTop from '../hooks/useScrollToTop';
 import ErrorBoundary from '../components/ErrorBoundary';
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import REDetails from "../components/EventPageComponents/RecentEvent/REDetails";
 
 const index = () => {
 
@@ -35,7 +36,12 @@ const index = () => {
         {
             path: "/projects",
             element: <ProjectPage />
+        },
+        {
+            path: "/redetails/:cardId",
+            element:<REDetails/>
         }
+
 
     ]
 
