@@ -12,11 +12,11 @@ const RCData =[
         'image':'/images/arduino.jpg'
     },
     {
-        'id':3,
+        'id':4,
         'image':'/images/arduino.jpg'
     },
     {
-        'id':3,
+        'id':5,
         'image':'/images/Untitled.jpg'
     }
 ]
