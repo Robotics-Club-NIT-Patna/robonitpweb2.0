@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+* {
+  border: 1px solid rgb(84, 247, 19);
+}
+.cirimage1locat {
+  border: 1px solid black;
+  right: -1rem;
+  top: -5rem; 
+  position:relative;
+  display: inline-block;
+} 
+.cirimage2locat {
+  border: 1px solid black;
+  right: -8rem;
+  top: -0rem;
+  position:relative;
+  display: inline-block;
+}
+.cirimage3locat {
+  border: 1px solid black;
+  right: -1.5rem;
+  top: 4rem;
+  position:relative;
+  display: inline-block;
+}
+.cirimage4locat {
+  border: 1px solid black;
+  left: 3rem;
+  top: -7rem;
+  position:relative;
+  display: inline-block;
+  z-index: 6;
+}
+.cirimage5locat {
+  border: 1px solid black;
+  left: -5rem;
+  top: -5rem;
+  position:relative;
+  display: inline-block;
+}
+.cirimage6locat {
+  border: 1px solid black;
+  left: 0rem;
+  top: 5rem;
+  position:relative;
+  display: inline-block;
+}
+.merch-font {
+  font-family: 'Black Ops One', system-ui;
+}
+.min-w {
+    width: 44em;
+}
+.min-h {
+    height: 28em;
+}
