@@ -19,10 +19,10 @@ const TeamMemberCard = ({name,post,linkedin,instagram, github, twitter,bgcolor,i
                       <div><h1 className='text-3xl text-white'>{name}</h1></div>
                       <div><p className='text-gray-400 text-xl'>{post}</p></div>
                       <div className='flex mt-5 gap-5'>
-                             <div><i><Linkedin color='blue'/></i></div> 
-                             <div><i><Instagram color="#ef2eb5" /></i></div>       
-                             <div><i><Github color='white'/></i></div>       
-                             <div><i><Twitter color="#97dee8" /></i></div>       
+                             <div className='cursor-pointer'><i><Linkedin color='blue'/></i></div> 
+                             <div className='cursor-pointer'><i><Instagram color="#ef2eb5" /></i></div>       
+                             <div className='cursor-pointer'><i><Github color='white'/></i></div>       
+                             <div className='cursor-pointer'><i><Twitter color="#97dee8" /></i></div>       
       
                       </div>
                  </div>
