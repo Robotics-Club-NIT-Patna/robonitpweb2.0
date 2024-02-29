@@ -17,7 +17,7 @@ const HomePage = ({isOpen}) => {
           {/* <MarqueeOne/> */}
           <Experience/>
           <RoboDesign/>
-          <PelletsGame/>
+          {/* <PelletsGame/> */}
           <CaseStudies/>  
           <MarqueeTwo/>  
           <Trending/>

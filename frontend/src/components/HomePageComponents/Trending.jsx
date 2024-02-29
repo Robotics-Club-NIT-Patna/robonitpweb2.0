@@ -30,6 +30,7 @@ const Trending = () => {
             description={item.description}
             date={item.date}
             imageUrl={item.imageUrl}
+            cardId = {item.id}
           />
         ))}
       </div>

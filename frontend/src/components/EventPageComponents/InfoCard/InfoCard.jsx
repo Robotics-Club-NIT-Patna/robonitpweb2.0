@@ -10,7 +10,7 @@ function InfoCard({img,title,desc}) {
             <p className="text-[20px]">{desc}</p>
         </div>
         <div className="mt-[30px]">
-            <Buttons buttonText={"Get Started"}/>
+            <Buttons buttonText={"Read More"}/>
         </div>
     </div>);
 }
