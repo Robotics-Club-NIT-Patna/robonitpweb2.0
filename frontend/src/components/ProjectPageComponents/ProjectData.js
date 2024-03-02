@@ -2,44 +2,83 @@ const ProjectData = [
     {
         'id':1,
         'Name':'Self Balancing Bot',
-        'description':'The self-balancing robot is similar to an upside-down pendulum. Unlike a normal pendulum which keeps on swinging once given a nudge, this inverted pendulum cannot stay balanced on its own. It will simply fall over. Then how do we balance it? Consider balancing a broomstick on our index finger which is a classic example of balancing an inverted pendulum. We move our finger in the direction in which the stick is falling. Similar is the case with a self-balancing robot, only that the robot will fall either forward or backward. Just like how we balance a stick on our finger, we balance the robot by driving its wheels in the direction in which it is falling. What we are trying to do here is to keep the center of gravity of the robot exactly above the pivot point. To drive the motors we need some information on the state of the robot. We need to know the direction in which the robot is falling, how much the robot has tilted and the speed with which it is falling. All these information can be deduced from the readings obtained from MPU6050. We combine all these inputs and generate a signal which drives the motors and keeps the robot balanced.',
-        'image':'/images/arduino.jpg' 
+        'description':'',
+        'image':'/images/projects/3Dprinting(1).png',
+        'tag1':'exciting',
+        'tag2':'arduino',
+        'tag3':'bot' 
     },
     {
         'id':2,
-        'Name':'Self Balancing Bot',
-        'description':'The self-balancing robot is similar to an upside-down pendulum. Unlike a normal pendulum which keeps on swinging once given a nudge, this inverted pendulum cannot stay balanced on its own. It will simply fall over. Then how do we balance it? Consider balancing a broomstick on our index finger which is a classic example of balancing an inverted pendulum. We move our finger in the direction in which the stick is falling. Similar is the case with a self-balancing robot, only that the robot will fall either forward or backward. Just like how we balance a stick on our finger, we balance the robot by driving its wheels in the direction in which it is falling. What we are trying to do here is to keep the center of gravity of the robot exactly above the pivot point. To drive the motors we need some information on the state of the robot. We need to know the direction in which the robot is falling, how much the robot has tilted and the speed with which it is falling. All these information can be deduced from the readings obtained from MPU6050. We combine all these inputs and generate a signal which drives the motors and keeps the robot balanced.',
-        'image':'/images/arduino.jpg' 
+        'Name':'Air Quality Drone',
+        'description':'',
+        'image':'/images/projects/airqualitydrone.png',
+        'tag1':'exciting',
+        'tag2':'arduino',
+        'tag3':'bot'  
     },
     {
         'id':3,
-        'Name':'Self Balancing Bot',
-        'description':'The self-balancing robot is similar to an upside-down pendulum. Unlike a normal pendulum which keeps on swinging once given a nudge, this inverted pendulum cannot stay balanced on its own. It will simply fall over. Then how do we balance it? Consider balancing a broomstick on our index finger which is a classic example of balancing an inverted pendulum. We move our finger in the direction in which the stick is falling. Similar is the case with a self-balancing robot, only that the robot will fall either forward or backward. Just like how we balance a stick on our finger, we balance the robot by driving its wheels in the direction in which it is falling. What we are trying to do here is to keep the center of gravity of the robot exactly above the pivot point. To drive the motors we need some information on the state of the robot. We need to know the direction in which the robot is falling, how much the robot has tilted and the speed with which it is falling. All these information can be deduced from the readings obtained from MPU6050. We combine all these inputs and generate a signal which drives the motors and keeps the robot balanced.',
-        'image':'/images/arduino.jpg' 
+        'Name':'Automated Bot',
+        'description':'',
+        'image':'/images/projects/automatedbot.png',
+        'tag1':'exciting',
+        'tag2':'arduino',
+        'tag3':'bot'  
     },
     {
         'id':4,
-        'Name':'Self Balancing Bot',
-        'description':'The self-balancing robot is similar to an upside-down pendulum. Unlike a normal pendulum which keeps on swinging once given a nudge, this inverted pendulum cannot stay balanced on its own. It will simply fall over. Then how do we balance it? Consider balancing a broomstick on our index finger which is a classic example of balancing an inverted pendulum. We move our finger in the direction in which the stick is falling. Similar is the case with a self-balancing robot, only that the robot will fall either forward or backward. Just like how we balance a stick on our finger, we balance the robot by driving its wheels in the direction in which it is falling. What we are trying to do here is to keep the center of gravity of the robot exactly above the pivot point. To drive the motors we need some information on the state of the robot. We need to know the direction in which the robot is falling, how much the robot has tilted and the speed with which it is falling. All these information can be deduced from the readings obtained from MPU6050. We combine all these inputs and generate a signal which drives the motors and keeps the robot balanced.',
-        'image':'/images/arduino.jpg' 
+        'Name':'Hexapod',
+        'description':'',
+        'image':'/images/projects/hexapod.png',
+        'tag1':'exciting',
+        'tag2':'arduino',
+        'tag3':'bot'  
     },
     {
         'id':5,
-        'Name':'Self Balancing Bot',
-        'description':'The self-balancing robot is similar to an upside-down pendulum. Unlike a normal pendulum which keeps on swinging once given a nudge, this inverted pendulum cannot stay balanced on its own. It will simply fall over. Then how do we balance it? Consider balancing a broomstick on our index finger which is a classic example of balancing an inverted pendulum. We move our finger in the direction in which the stick is falling. Similar is the case with a self-balancing robot, only that the robot will fall either forward or backward. Just like how we balance a stick on our finger, we balance the robot by driving its wheels in the direction in which it is falling. What we are trying to do here is to keep the center of gravity of the robot exactly above the pivot point. To drive the motors we need some information on the state of the robot. We need to know the direction in which the robot is falling, how much the robot has tilted and the speed with which it is falling. All these information can be deduced from the readings obtained from MPU6050. We combine all these inputs and generate a signal which drives the motors and keeps the robot balanced.',
-        'image':'/images/arduino.jpg' 
+        'Name':'Line Follower',
+        'description':'',
+        'image':'/images/projects/linefollower.png',
+        'tag1':'exciting',
+        'tag2':'arduino',
+        'tag3':'bot'  
     },
     {
         'id':6,
-        'Name':'Self Balancing Bot',
-        'description':'The self-balancing robot is similar to an upside-down pendulum. Unlike a normal pendulum which keeps on swinging once given a nudge, this inverted pendulum cannot stay balanced on its own. It will simply fall over. Then how do we balance it? Consider balancing a broomstick on our index finger which is a classic example of balancing an inverted pendulum. We move our finger in the direction in which the stick is falling. Similar is the case with a self-balancing robot, only that the robot will fall either forward or backward. Just like how we balance a stick on our finger, we balance the robot by driving its wheels in the direction in which it is falling. What we are trying to do here is to keep the center of gravity of the robot exactly above the pivot point. To drive the motors we need some information on the state of the robot. We need to know the direction in which the robot is falling, how much the robot has tilted and the speed with which it is falling. All these information can be deduced from the readings obtained from MPU6050. We combine all these inputs and generate a signal which drives the motors and keeps the robot balanced.',
-        'image':'/images/arduino.jpg' 
+        'Name':'Mark 1.6',
+        'description':'',
+        'image':'/images/projects/mark1.6(1).png',
+        'tag1':'exciting',
+        'tag2':'arduino',
+        'tag3':'bot'  
     },
     {
         'id':7,
-        'Name':'Self Balancing Bot',
-        'description':'The self-balancing robot is similar to an upside-down pendulum. Unlike a normal pendulum which keeps on swinging once given a nudge, this inverted pendulum cannot stay balanced on its own. It will simply fall over. Then how do we balance it? Consider balancing a broomstick on our index finger which is a classic example of balancing an inverted pendulum. We move our finger in the direction in which the stick is falling. Similar is the case with a self-balancing robot, only that the robot will fall either forward or backward. Just like how we balance a stick on our finger, we balance the robot by driving its wheels in the direction in which it is falling. What we are trying to do here is to keep the center of gravity of the robot exactly above the pivot point. To drive the motors we need some information on the state of the robot. We need to know the direction in which the robot is falling, how much the robot has tilted and the speed with which it is falling. All these information can be deduced from the readings obtained from MPU6050. We combine all these inputs and generate a signal which drives the motors and keeps the robot balanced.',
-        'image':'/images/arduino.jpg' 
+        'Name':'PlutoX',
+        'description':'',
+        'image':'/images/projects/PlutoX.0da5af92.png',
+        'tag1':'exciting',
+        'tag2':'arduino',
+        'tag3':'bot'  
+    },
+    {
+        'id':8,
+        'Name':'Radar',
+        'description':'',
+        'image':'/images/projects/Radar.0175808a.png',
+        'tag1':'exciting',
+        'tag2':'arduino',
+        'tag3':'bot'  
+    },
+    {
+        'id':8,
+        'Name':'Self Balancing',
+        'description':'',
+        'image':'/images/projects/selfbalancing.png',
+        'tag1':'exciting',
+        'tag2':'arduino',
+        'tag3':'bot'  
     },
 ]
 

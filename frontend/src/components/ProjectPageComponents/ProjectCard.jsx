@@ -1,30 +1,37 @@
 import React from 'react'
+import Tags from '../Tags'
 
-const ProjectCard = () => {
+const ProjectCard = ({Name, description,image,tag1, tag2, tag3}) => {
   return (
     <>
-    <div className='flex flex-col'>
+      <div className='flex flex-col'>
 
-       <div className=' relative w-fit h-auto rounded-2xl overflow-hidden'>
-        
-          <img src="/images/arduino.jpg" alt="" />
-        
+        <div className=' relative w-96 h-80 rounded-2xl overflow-hidden'>
 
-          <button className='bg-gray-400 w-20 h-fit rounded-2xl shadow-[-2px_2px_0px_rgb(156,163,175),-3px_5px_0px_rgb(0,0,0)] absolute top-3 left-5 border-black border-2'>Click me!
-          </button>
-          <button className='bg-gray-400 w-20 h-fit rounded-2xl shadow-[-2px_2px_0px_rgb(156,163,175),-3px_5px_0px_rgb(0,0,0)] absolute bottom-5 right-1/4 border-black border-2'>Click me!!</button>
-          <button className='bg-gray-400 w-20 h-fit rounded-2xl shadow-[-2px_2px_0px_rgb(156,163,175),-3px_5px_0px_rgb(0,0,0)]  absolute bottom-5 left-5  border-black border-2'>Click me!!</button>
-          
-       
-      
-       </div>
-       
+          <img src={image} alt="" className='object-cover h-80 w-full cursor-pointer' />
 
-        <div className='font-extrabold'>COUNTRY THUNDER 2023</div>
-        <div>Arizona</div>
-       
-    </div>
-       
+          <div className='absolute bottom-60 p-2'>
+            <Tags tagtext={tag1} tagcolor={'bg-pink-500'}/>
+          </div>
+          <div className='absolute bottom-2 p-2'>
+            <Tags tagtext={tag2} tagcolor={'bg-blue-400'}/>
+          </div>
+          <div className='absolute bottom-2 p-2 right-0'>
+            <Tags tagtext={tag3} tagcolor={'bg-yellow-400'}/>
+          </div>
+
+
+
+        </div>
+
+        <div className='flex'>
+          <div className='font-extrabold'>{Name}</div>
+          {/* <div className='flex flex-grow justify-end'>Arizona</div> */}
+        </div>
+
+
+      </div>
+
     </>
   )
 }
