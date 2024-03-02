@@ -2,7 +2,7 @@ import React from 'react'
 import ExperienceCard from './ExperienceCard'
 import cardData from '../../../src/cardData'
 import { useState, useEffect, useRef } from 'react'
-import Carousels from './Carousels'
+import Carousels from './Carousel/Carousels'
 const Experience = () => {
 
 
