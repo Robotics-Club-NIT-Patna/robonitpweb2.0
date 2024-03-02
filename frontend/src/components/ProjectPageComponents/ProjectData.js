@@ -1,7 +1,7 @@
 const ProjectData = [
     {
         'id':1,
-        'Name':'Self Balancing Bot',
+        'Name':'3D Printing',
         'description':'',
         'image':'/images/projects/3Dprinting(1).png',
         'tag1':'exciting',
