@@ -15,7 +15,8 @@ export default {
           'customBlueOne':'#0ea5e9',
           'customBlueTwo':'#60a5fa',
           'neonGreen': '#a6fd29',
-          'neonBlue': '#55ffe1'
+          'neonBlue': '#55ffe1',
+          'customBlack': '#1D1D1D'
        },
        textColor:{
            'navbarTextColor':'#6ff13e',

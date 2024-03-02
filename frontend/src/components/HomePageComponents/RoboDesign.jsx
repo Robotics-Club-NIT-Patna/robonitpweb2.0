@@ -21,12 +21,7 @@ const RoboDesign = () => {
                     </div>
                     <div data-aos='fade-up' className='w-96'>
                         <p className='text-xl md:text-2xl'>
-                            Discover the magic of our custom design app,
-                            the powerhouse behind the on-site
-                            customization adventure. Dive into a
-                            PERSONAL touch, an IMMERSIVE journey, and
-                            forge a lasting CONNECTION between your
-                            brand and your audience.
+                        Embark on a journey of boundless creativity with Arduino! Whether you're a seasoned maker or just starting your exploration of the exciting world of electronics, Arduino IDE is your gateway to unleashing the power of imagination.
                         </p>
                     </div>
                     <div data-aos='fade-up' className=' h-20 flex items-center ml-5'>
@@ -35,8 +30,8 @@ const RoboDesign = () => {
                 </div>
 
                 <div data-aos='fade-up' className=' flex justify-center w-full md:w-auto'>
-                    <div className=' flex justify-center  items-center border border-white md:w-64 rounded-3xl overflow-hidden'>
-                        <img src='./images/arduino.jpg' className='object-cover h-96' alt='' />
+                    <div className=' flex justify-center  items-center border border-white w-80  sm:w-[20rem] md:w-[22rem] rounded-3xl overflow-hidden'>
+                        <img src='./images/arduinogif.gif' className='object-cover h-[24rem] sm:h-[28rem] md:h-[35rem]' alt='' />
                     </div>
                 </div>
 

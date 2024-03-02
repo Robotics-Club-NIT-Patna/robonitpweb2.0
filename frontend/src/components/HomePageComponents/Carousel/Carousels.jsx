@@ -1,18 +1,26 @@
 import React from 'react'
 import CarouselCard from './CarouselCard'
-import carouselCardData from '../../carouselCardData'
+import carouselCardData from '../../../carouselCardData'
+import {CCarousel} from '@coreui/react'
+import { CCarouselItem } from '@coreui/react'
+import './carStyle.css'
 const Carousels = () => {
 
 
   return (
     <>
-      <div className='flex overflow-x-scroll overflow-y-hidden gap-10'>
+      <div className='carousel-container flex justify-center gap-10'>
+        <CCarousel controls>
           {carouselCardData.map((it) => (
-          
-                <CarouselCard key={it.id} imageUrl={it.imageUrl} head1={it.head1} head2={it.head2} backgroundColor={it.backgroundColor} para={it.para} />
-            
+            <CCarouselItem key={it.id}>
+              <CarouselCard key={it.id} imageUrl={it.imageUrl} head1={it.head1} head2={it.head2} backgroundColor={it.backgroundColor} para={it.para} />
+            </CCarouselItem>
+
+
           ))}
-        
+        </CCarousel>
+
+
       </div>
 
       <div className='flex justify-center gap-4 mt-8'>

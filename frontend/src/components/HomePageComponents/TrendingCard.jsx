@@ -20,7 +20,7 @@ const TrendingCard = ({ imageUrl, title, description, date, cardId }) => {
       </div>
 
       <p className="text-lg leading-6 text-gray-600 font-semibold px-4">{title}</p>
-      <p className="text-3xl font-semibold px-4">{description}</p>
+      <p className="text-2xl font-semibold px-4  h-48 overflow-hidden">{description}</p>
       <p className="text-lg text-gray-600 font-semibold px-4">{date}</p>
 
       <Link to={`/redetails/${cardId}`}>

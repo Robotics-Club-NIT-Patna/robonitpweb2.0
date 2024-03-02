@@ -22,9 +22,12 @@ const REDetails = () => {
                 <img src={imageUrl} alt="Card Image" />
             </div> */}
             <div className='flex'>
-                 <div className='w-2/4'>{description}</div>
-                 <div className='w-2/4'>
-                       <div><img src={imageUrl}/></div>
+                 <div className='w-2/4 bg-customBlack p-10'>
+                      <div className='border border-gray-700 p-10 font-ultra '>{description}</div>
+                      <div className='mt-60 w-full flex justify-end  font-bold text-gray-600 border-t border-gray-300'>Date: {date}</div>
+                 </div>
+                 <div className='w-2/4 '>
+                       <div className='sticky top-32'><img src={imageUrl}/></div>
                  </div>
             </div>
 

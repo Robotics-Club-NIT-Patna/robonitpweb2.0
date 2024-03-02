@@ -1,23 +1,23 @@
 const RCData =[
     {
         'id':1,
-        'image':'/images/arduino.jpg'
+        'image':'/images/recentEvents/robowar.jpeg'
     },
     {
         'id':2,
-        'image':'/images/arduino.jpg'
+        'image':'/images/recentEvents/laserbot.jpeg'
     },
     {
         'id':3,
-        'image':'/images/arduino.jpg'
+        'image':'/images/recentEvents/soccerbot.jpeg'
     },
     {
         'id':4,
-        'image':'/images/arduino.jpg'
+        'image':'/images/pastEvents/Chakravyuh (1).png'
     },
     {
         'id':5,
-        'image':'/images/Untitled.jpg'
+        'image':'/images/pastEvents/nexthokage.jfif'
     }
 ]
 

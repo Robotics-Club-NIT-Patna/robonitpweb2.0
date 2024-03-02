@@ -14,7 +14,7 @@ const Hero = () => {
                         
                    </div>
                    <div className='flex justify-center items-center font-anton mt-5 w-3/5 sm:w-4/6'>
-                         <h2>Our on-site merch customization experiences transform your event attendees into artists, creators, and product designers.</h2>
+                         <h2>Experience the exciting thrill.</h2>
                    </div>
                    <div className='mt-5 '>
                         <button className='bg-green-400 cursor-pointer p-2 text-lg font-bold rounded-2xl flex items-center '>Get Started<MoveRight/></button>
@@ -23,19 +23,19 @@ const Hero = () => {
               </div>
               <div className='flex flex-col justify-center items-center  '>
                    <div className='flex gap-5 ml-10 lg:gap-10 lg:ml-20'>
-                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-32 w-60' src='https://cdn.pixabay.com/animation/2023/04/12/11/31/11-31-50-66_512.gif' alt=''/></div>
-                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-32 w-60' src='https://cdn.pixabay.com/animation/2023/04/12/11/31/11-31-50-66_512.gif' alt=''/></div>
-                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-32 w-60' src='https://cdn.pixabay.com/animation/2023/04/12/11/31/11-31-50-66_512.gif' alt=''/></div>
+                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/0_DSC06549.jpg' alt=''/></div>
+                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/1_DSC_0008_1.jpg' alt=''/></div>
+                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/1_DSC_0043.jpg' alt=''/></div>
                    </div>
                    <div className='flex mt-4 gap-5 -ml-10  lg:gap-10  '>
-                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-32 w-60' src='https://cdn.pixabay.com/animation/2023/04/12/11/31/11-31-50-66_512.gif' alt=''/></div>
-                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-32 w-60' src='https://cdn.pixabay.com/animation/2023/04/12/11/31/11-31-50-66_512.gif' alt=''/></div>
-                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-32 w-60' src='https://cdn.pixabay.com/animation/2023/04/12/11/31/11-31-50-66_512.gif' alt=''/></div>
+                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/1_DSC06570.jpg' alt=''/></div>
+                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/1_DSC06797.jpg' alt=''/></div>
+                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/2_DSC_0005.jpg' alt=''/></div>
                    </div>
                    <div className='flex mt-4 gap-5 ml-10 lg:gap-10 lg:ml-20'>
-                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-32 w-60' src='https://cdn.pixabay.com/animation/2023/04/12/11/31/11-31-50-66_512.gif' alt=''/></div>
-                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-32 w-60' src='https://cdn.pixabay.com/animation/2023/04/12/11/31/11-31-50-66_512.gif' alt=''/></div>
-                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-32 w-60' src='https://cdn.pixabay.com/animation/2023/04/12/11/31/11-31-50-66_512.gif' alt=''/></div>
+                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/3_DSC06670.jpg' alt=''/></div>
+                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/4_DSC_0039.jpg' alt=''/></div>
+                        <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/5_SHL06790.jpg' alt=''/></div>
                    </div>
               </div>
         </div>

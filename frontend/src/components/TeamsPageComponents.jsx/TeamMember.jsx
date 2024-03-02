@@ -14,13 +14,26 @@ const TeamMember = () => {
 
   return (
     <>
-      <div className='text-8xl font-anton flex justify-center'
+      <div className='text-5xl sm:text-6xl md:text-8xl font-anton flex flex-col justify-center items-center'
         style={{
           WebkitTextStroke: '1px white',
           color: 'black',
           textStroke: '1px white'
         }}
-      >Team</div>
+      >Post Bearers for the 
+         <div className='text-yellow-600'>AY 2023-24</div>
+      </div>
+
+      <div className='border-b-2 p-10 border-gray-600'>
+           <TeamMemberCard
+              name={'Gagandeep Meena'}
+              post={'PI of Robotics Club, NITP'}
+              image={'https://lh3.googleusercontent.com/a-/AOh14GiDuUO4d4iWUb4OFPUwW7KjdGzv5lZOJrddsxcN'}
+              bgcolor={'bg-gradient-to-r from-blue-500 to-blue-300'}
+              position={'md:flex-row-reverse'}
+              margin={'ml-[-22.4rem]'}
+           />
+      </div>
 
       {TeamData.map((item) => (
         <div data-aos={item.id % 2 ===0? 'fade-left': 'fade-right'}>
