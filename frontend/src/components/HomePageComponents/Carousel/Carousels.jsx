@@ -1,9 +1,9 @@
 import React from 'react'
 import CarouselCard from './CarouselCard'
 import carouselCardData from '../../../carouselCardData'
-import { CCarousel } from '@coreui/react'
-import { CCarouselItem } from '@coreui/react'
-import './carStyle.css'
+// import { CCarousel } from '@coreui/react'
+// import { CCarouselItem } from '@coreui/react'
+// import './carStyle.css'
 const Carousels = () => {
 
 
