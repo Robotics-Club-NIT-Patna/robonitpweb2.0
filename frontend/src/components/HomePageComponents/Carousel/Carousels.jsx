@@ -9,7 +9,7 @@ const Carousels = () => {
 
   return (
     <>
-      <div className='carousel-container flex justify-center gap-10'>
+      <div className='carousel-container flex justify-center gap-10 overflow-x-scroll'>
         {/* <CCarousel controls>
           {carouselCardData.map((it) => (
             <CCarouselItem key={it.id}>
