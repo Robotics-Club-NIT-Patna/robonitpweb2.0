@@ -14,8 +14,8 @@ const CaseStudies = () => {
   return (
     <div className='mt-20 ml-2 mr-2'>
 
-      <div className='ml-8 mr-8'>
-        <h1 className='font-anton text-8xl'
+      <div className='ml-4'>
+        <h1 className='font-anton text-7xl sm:text-8xl'
           style={{
             WebkitTextStroke: '1px white',
             color: 'black',
@@ -23,7 +23,7 @@ const CaseStudies = () => {
           }}>
           RECENT
         </h1>
-        <h1 className='font-anton text-8xl text-white'>ACTIVITIES</h1>
+        <h1 className='font-anton text-7xl sm:text-8xl text-white'>ACTIVITIES</h1>
       </div>
 
       

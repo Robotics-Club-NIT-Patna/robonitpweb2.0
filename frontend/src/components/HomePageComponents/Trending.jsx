@@ -9,7 +9,7 @@ const Trending = () => {
   return (
     <div className="flex flex-col md:mx-4 items-center justify-center md:justify-start ">
       <div className='ml-8'>
-              <h1 className='font-anton text-8xl'
+              <h1 className='font-anton text-7xl sm:text-8xl'
                  style={{
                   WebkitTextStroke:'1px white',
                   color:'black',
@@ -17,7 +17,7 @@ const Trending = () => {
                  }}>
                      WHATS
               </h1>
-              <h1 className='font-anton text-8xl text-white '>TRENDING</h1>
+              <h1 className='font-anton text-7xl sm:text-8xl text-white '>TRENDING</h1>
          </div>
 
       {/* TrendingCard */}
