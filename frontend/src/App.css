@@ -77,4 +77,17 @@ body {
   filter: blur(0); 
 }
 
+/* teams */
 
+@keyframes bounce-y {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the distance to move up and down */
+  }
+}
+
+.animate-bounce-y {
+  animation: bounce-y 2s infinite; /* Adjust the animation duration as needed */
+}
