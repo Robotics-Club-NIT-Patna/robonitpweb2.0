@@ -20,7 +20,8 @@
     "react-fast-marquee": "^1.6.3",
     "react-marquee-slider": "^1.1.5",
     "react-router-dom": "^6.18.0",
-    "react-scroll-parallax": "^3.4.5"
+    "react-scroll-parallax": "^3.4.5",
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
