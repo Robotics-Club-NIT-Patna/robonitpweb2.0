@@ -17,7 +17,7 @@ function Roboexperience() {
     Aos.init({duration: 1000})
 },[])
 
-// 640       1535
+
 
 // sm: prefix applies styles on screens larger than or equal to 640px wide (sm:mx-auto, sm:w-8/12, sm:gap-8, sm:text-3xl).
 // md: prefix applies styles on screens larger than or equal to 768px wide (md:w-11/12, md:text-6xl).
