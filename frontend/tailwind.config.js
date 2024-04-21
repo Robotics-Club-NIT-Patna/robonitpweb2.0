@@ -26,9 +26,11 @@ export default {
 
        },
        backgroundImage:{
-          'bg1':'url("https://familyindustrieslive.com/wp-content/uploads/2023/06/IMG_2767-2.jpg")',
-          'bg1':'url("https://familyindustrieslive.com/wp-content/uploads/2023/06/IMG_2767-2.jpg")',
-          'bg1':'url("https://familyindustrieslive.com/wp-content/uploads/2023/06/IMG_2767-2.jpg")'
+        // 'bg1':'/images/gallery/DSC_0081.jpg',
+        // 'bg2':'/images/gallery/DSC_0039.jpg',
+        // 'bg3':'/images/gallery/DSC_0056.jpg',
+        // 'bg4':'/images/gallery/DSC_0829.jpg',
+        // 'bg5':'/images/gallery/pic1.jpg'
        },
        fontSize:{
            'customFont':'15rem'

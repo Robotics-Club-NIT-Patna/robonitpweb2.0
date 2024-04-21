@@ -98,9 +98,9 @@ const NavBar = () => {
           <Link to="/projects">
             <div className=' hover:text-navbarTextColor text-xl rounded-md  cursor-pointer p-2 items-center font-bold'>Projects</div>
           </Link>
-          <Link to="/getstarted">
+          <Link to="/events">
             <div className='rectangle relative p-4 h-14 w-40 flex justify-center items-center text-xl bg-white rounded-2xl text-black cursor-pointer ml-20 overflow-hidden hover:text-white'>
-              <div className='absolute z-10 font-bold'>Get Started</div>
+              <div className='absolute z-10 font-bold '>Get Started</div>
               <div className='circle absolute h-10 w-10 rounded-full bg-pink-300  opacity-0' ></div>
             </div>
           </Link>
