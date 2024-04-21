@@ -42,7 +42,7 @@ const TeamMember = () => {
 
       </div>
 
-      <div className='text-5xl sm:text-6xl md:text-8xl font-anton flex flex-col justify-center items-center'
+      <div className='text-5xl  sm:text-6xl md:text-8xl font-anton flex flex-col justify-center items-center'
         style={{
           WebkitTextStroke: '1px white',
           color: 'black',
@@ -52,7 +52,7 @@ const TeamMember = () => {
         <div className='text-yellow-600'>AY 2023-24</div>
       </div>
 
-      <div className='border-b-2 p-10 border-gray-600'>
+      <div className='border-b-2 p-10 border-gray-600 '>
         <TeamMemberCard
           name={'Gagandeep Meena'}
           post={'PI of Robotics Club, NITP'}
