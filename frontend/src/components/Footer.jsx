@@ -40,7 +40,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div>
+                    <div className='w-40'>
                          <div><h2 className='text-2xl'>About</h2></div>
                          <div className='text-gray-500'>
                               <Link to='/about'><h3 className='cursor-pointer hover:text-green-400'>Robotics club</h3></Link>

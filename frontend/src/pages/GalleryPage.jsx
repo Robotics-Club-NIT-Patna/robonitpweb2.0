@@ -6,8 +6,16 @@ import CardMarquee from '../components/HomePageComponents/CardMarquee'
 const GalleryPage = () => {
   return (
     <>
-      <div className='mt-10'>
-        <CardMarquee />
+      <div>
+        <div data-aos='fade-down' className='flex mt-10  justify-center items-center w-full gap-6'>
+          <div className='font-anton text-8xl'
+            style={{
+              WebkitTextStroke: '1px white',
+              color: 'black',
+              textStroke: '1px white'
+            }}
+          >GALLERY</div>
+        </div>
       </div>
 
       <StickyImage />

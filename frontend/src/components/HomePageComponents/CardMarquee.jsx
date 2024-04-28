@@ -14,7 +14,7 @@ const CardMarquee = () => {
                         <div className=' w-full'>
                             <Marquee direction=''>
                                 
-                                    <div className='text-black'><Unplug /></div>
+                                    <div className='text-black ml-10'><Unplug /></div>
                                     <div className='text-black ml-10'><Unplug /></div>
                                     <div className='text-black ml-10'><Unplug /></div>
                                     <div className='text-black ml-10'><Unplug /></div>
@@ -31,7 +31,7 @@ const CardMarquee = () => {
                     <div className=' flex justify-center items-center h-12 sm:h-20 absolute top-20 sm:top-40 w-full bg-green-400 text-black'>
                         <div className='w-full'>
                             <Marquee>
-                                <div className='text-black'><Unplug /></div>
+                                <div className='text-black ml-10'><Unplug /></div>
                                 <div className='text-black ml-10'><Unplug /></div>
                                 <div className='text-black ml-10'><Unplug /></div>
                                 <div className='text-black ml-10'><Unplug /></div>

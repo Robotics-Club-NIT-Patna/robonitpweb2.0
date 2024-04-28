@@ -20,7 +20,7 @@ const REvents = () => {
                 >EVENTS</div>
             </div>
 
-            <div className='flex flex-col sm:flex-row overflow-x-scroll  sm:-mt-60'>
+            <div className='flex flex-col sm:flex-row overflow-x-scroll sm:-mt-40'>
                 {trendingData.map((item) => (
                     <div className='flex flex-shrink-0  sm:w-[30vw]'>
 

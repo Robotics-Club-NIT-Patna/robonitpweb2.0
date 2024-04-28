@@ -27,19 +27,19 @@ const Hero = () => {
                     </div>
                     <div className='flex flex-col justify-center items-center  '>
                          <div className='flex gap-5 ml-10 lg:gap-10 lg:ml-20'>
-                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/0_DSC06549.jpg' alt='' /></div>
-                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/1_DSC_0008_1.jpg' alt='' /></div>
-                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/1_DSC_0043.jpg' alt='' /></div>
+                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='object-cover' src='/images/hero/0_DSC06549.jpg' alt='' /></div>
+                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='object-cover' src='/images/hero/1_DSC_0008_1.jpg' alt='' /></div>
+                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='object-cover' src='/images/hero/1_DSC_0043.jpg' alt='' /></div>
                          </div>
                          <div className='flex mt-4 gap-5 -ml-10  lg:gap-10  '>
-                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/1_DSC06570.jpg' alt='' /></div>
-                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/1_DSC06797.jpg' alt='' /></div>
-                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/2_DSC_0005.jpg' alt='' /></div>
+                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='object-cover' src='/images/hero/1_DSC06570.jpg' alt='' /></div>
+                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='object-cover' src='/images/hero/1_DSC06797.jpg' alt='' /></div>
+                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='object-cover' src='/images/hero/2_DSC_0005.jpg' alt='' /></div>
                          </div>
                          <div className='flex mt-4 gap-5 ml-10 lg:gap-10 lg:ml-20'>
-                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/3_DSC06670.jpg' alt='' /></div>
-                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/4_DSC_0039.jpg' alt='' /></div>
-                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='h-36 w-60' src='/images/hero/5_SHL06790.jpg' alt='' /></div>
+                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='object-cover' src='/images/hero/3_DSC06670.jpg' alt='' /></div>
+                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='object-cover' src='/images/hero/4_DSC_0039.jpg' alt='' /></div>
+                              <div className='border-white border rounded-3xl h-16 w-24 sm:h-24 sm:w-32 lg:h-36 lg:w-56 overflow-hidden'><img className='object-cover' src='/images/hero/5_SHL06790.jpg' alt='' /></div>
                          </div>
                     </div>
                </div>

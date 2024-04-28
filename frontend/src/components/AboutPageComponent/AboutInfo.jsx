@@ -24,7 +24,7 @@ const AboutInfo = () => {
                         >US</div>
                     </div>
 
-                    <div data-aos='fade-up' className='flex justify-center h-full items-end'>
+                    <div data-aos='fade-up' className='flex justify-center h-full items-end ml-4'>
                          <div className='text-6xl font-ultra text-white'>ROBOTICS CLUB NIT, PATNA</div>
                     </div>
 
@@ -44,7 +44,7 @@ const AboutInfo = () => {
                 </div>
 
                 <div>
-                    <div  data-aos='fade-right' data-aos-delay='600' className=' flex gap-3 ml-40 mt-10'>
+                    <div  data-aos='fade-right' data-aos-delay='600' className=' flex gap-3 ml-20 mt-16'>
                         <h1 className='font-anton text-5xl'
                             style={{
                                 WebkitTextStroke: '1px white',
@@ -56,7 +56,7 @@ const AboutInfo = () => {
                         <h1 className='font-anton text-5xl text-white'>WE DO</h1>
                     </div>
                 </div>
-                <div className='flex justify-center text-center items-center mt-20'>
+                <div className='flex justify-center text-center items-center mt-10 md:mt-20'>
                     <div className=' w-[65vw]'>
                         <p className='text-gray-400 font-bold text-xl'>Does robots fascinates you and have you ever fantasized to build one for yourself? The Robotics club NIT Patna is the place! The Robotics club at NIT Patna strives to stimulate interest in robotics among the students of the institute. Today robotics is a rapidly growing field, as technological advances continue researching designing and building new robots serve various practical purposes. Robotics is a field which is not limited to a particular branch and is way more diverse than our own imagination and so is our student club. We are a diverse group of robotics nerds who find roots across all academic departments of the Institute. We at Robotics club believe in working and growing together. You can know more about us from here. #HailRobotics</p>
 

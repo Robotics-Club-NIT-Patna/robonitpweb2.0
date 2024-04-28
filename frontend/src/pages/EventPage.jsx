@@ -22,7 +22,7 @@ const EventPage = () => {
         >EVENTS</div>
       </div>
 
-      <div className='flex'>
+      <div className='flex mt-20'>
         <div className='max-w-[1280px] justify-center mx-auto'>
           <InfoCards />
         </div>

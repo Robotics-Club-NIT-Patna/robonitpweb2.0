@@ -5,6 +5,7 @@ import ErrorBoundary from '../components/ErrorBoundary';
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import REDetails from "../components/EventPageComponents/RecentEvent/REDetails";
+import PEDetails from "../components/EventPageComponents/InfoCard/PEDetails";
 
 const index = () => {
 
@@ -40,6 +41,10 @@ const index = () => {
         {
             path: "/redetails/:cardId",
             element:<REDetails/>
+        },
+        {
+            path: "/pedetails/:cardId",
+            element:<PEDetails/>
         }
 
 

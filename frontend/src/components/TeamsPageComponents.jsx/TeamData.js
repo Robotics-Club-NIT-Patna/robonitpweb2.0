@@ -66,7 +66,7 @@ const TeamData =[
             'twitter':'',
  
             'image':'images/postBearers/IMG_20221122_195115930 (1)(1).jpg',
-            'bgcolor':'bg-gradient-to-r from-purple-200 to-blue-400',
+            'bgcolor':'bg-gradient-to-r from-purple-500 to-blue-600',
             'position':'md:flex-row',
             'margin':'ml-[-25.4rem]'
          },
@@ -80,7 +80,7 @@ const TeamData =[
             'twitter':'',
  
             'image':'images/postBearers/IMG-20240106-WA0001(2).jpg',
-            'bgcolor':'bg-gradient-to-r from-pink-400 to-yellow-200',
+            'bgcolor':'bg-gradient-to-r from-pink-500 to-purple-300',
             'position':'md:flex-row-reverse',
             'margin':'ml-[-25.4rem]'
          },
@@ -94,7 +94,7 @@ const TeamData =[
             'twitter':'',
  
             'image':'images/postBearers/Luban_1704540919862(1).jpg',
-            'bgcolor':'bg-gradient-to-l from-green-500 to-blue-400',
+            'bgcolor':'bg-gradient-to-l from-blue-400 to-blue-600',
             'position':'md:flex-row',
             'margin':'ml-[-25.4rem]'
          },
@@ -108,7 +108,7 @@ const TeamData =[
             'twitter':'',
  
             'image':'images/postBearers/IMG_20220729_130835(1).jpg',
-            'bgcolor':'bg-gradient-to-r from-red-500 to-pink-200',
+            'bgcolor':'bg-gradient-to-r from-red-600 to-red-400',
             'position':'md:flex-row-reverse',
             'margin':'ml-[-25.4rem]'
          },
@@ -150,7 +150,7 @@ const TeamData =[
             'twitter':'',
  
             'image':'images/postBearers/DSCN1578 - SURAJ KUMAR.JPG',
-            'bgcolor':'bg-gradient-to-l from-pink-500 to-green-400',
+            'bgcolor':'bg-gradient-to-l from-yellow-500 to-yellow-200',
             'position':'md:flex-row',
             'margin':'ml-[-25.4rem]'
          },
@@ -164,7 +164,7 @@ const TeamData =[
             'twitter':'',
  
             'image':'images/postBearers/IMG_20230104_134925 - ANJALI RAJ.jpg',
-            'bgcolor':'bg-gradient-to-r from-yellow-700 to-gray-300',
+            'bgcolor':'bg-gradient-to-r from-yellow-700 to-gray-400',
             'position':'md:flex-row-reverse',
             'margin':'ml-[-25.4rem]'
          },
@@ -178,7 +178,7 @@ const TeamData =[
             'twitter':'',
  
             'image':'images/postBearers/1672844893995 - LIPI ADITI.jpg',
-            'bgcolor':'bg-gradient-to-l from-yellow-500 to-yellow-400',
+            'bgcolor':'bg-gradient-to-l from-yellow-500 to-yellow-200',
             'position':'md:flex-row',
             'margin':'ml-[-25.4rem]'
          },

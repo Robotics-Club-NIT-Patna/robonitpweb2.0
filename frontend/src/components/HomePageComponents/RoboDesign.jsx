@@ -12,7 +12,7 @@ const RoboDesign = () => {
 
     return (
         <>
-            <div  className='flex flex-col md:flex-row sm:justify-center sm:items-center mt-10 ml-5 mr-5 gap-10 '>
+            <div  className='flex flex-col lg:flex-row sm:justify-center sm:items-center mt-10 ml-5 mr-5 gap-10 '>
                 <div className='div1 flex flex-col w-full md:w-2/4 gap-5'>
                     <div data-aos='fade-up' className='font-anton text-5xl sm:text-7xl  md:text-8xl  text-white'>
                         <h1>DESIGN</h1>
@@ -30,8 +30,8 @@ const RoboDesign = () => {
                 </div>
 
                 <div data-aos='fade-up' className=' flex justify-center w-full md:w-auto'>
-                    <div className=' flex justify-center  items-center border border-white w-80  sm:w-[20rem] md:w-[22rem] rounded-3xl overflow-hidden'>
-                        <img src='./images/arduinogif.gif' className='object-cover h-[24rem] sm:h-[28rem] md:h-[35rem]' alt='' />
+                    <div className=' flex justify-center  items-center border border-white rounded-3xl overflow-hidden'>
+                        <img src='./images/arduinogif.gif' className='object-cover h-[24rem] sm:h-[28rem] md:h-[30rem]' alt='' />
                     </div>
                 </div>
 
