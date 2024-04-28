@@ -11,18 +11,18 @@ import CardMarquee from '../components/HomePageComponents/CardMarquee'
 import Trending from '../components/HomePageComponents/Trending'
 const HomePage = ({isOpen}) => {
     return (
-        <>
+        <div className='overflow-x-hidden'>
           <Hero/>
           <Roboexperience/>
           {/* <MarqueeOne/> */}
           <Experience/>
-          <RoboDesign/>
+          {/* <RoboDesign/> */}
           {/* <PelletsGame/> */}
           <CaseStudies/>  
           <MarqueeTwo/>  
           <Trending/>
           <CardMarquee/>
-        </>
+        </div>
     )
 }
 

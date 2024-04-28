@@ -4,7 +4,7 @@ import TeamMember from '../components/TeamsPageComponents.jsx/TeamMember'
 const TeamsPage = () => {
   return (
         <>
-           <div>
+           <div className='overflow-x-hidden'>
                 <TeamMember/>
            </div>
         </>

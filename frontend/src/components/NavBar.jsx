@@ -116,7 +116,7 @@ const NavBar = () => {
 
           {isOpen && (
             <div className=''>
-              <div className={`circle bg-black fixed  top-0 right-0  rounded-bl-full ${isOpen ? 'transition-all duration-100 ease-in-out' : ''}`} style={{ width: `${circleSize}%`, height: `${circleSize}%` }}></div>
+              <div className={`circle bg-black fixed  top-0 right-0   rounded-bl-full ${isOpen ? 'transition-all duration-100 ease-in-out' : ''}`} style={{ width: `${circleSize}%`, height: `${circleSize}%` }}></div>
               <div className='absolute top-0 right-0  p-8 font-anton flex justify-end  w-full'>
                 <div onClick={toggleAccordion} ><div className=' w-full cursor-pointer'><X size={30} /></div></div>
               </div>

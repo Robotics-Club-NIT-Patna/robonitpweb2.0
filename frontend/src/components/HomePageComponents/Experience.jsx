@@ -3,6 +3,8 @@ import ExperienceCard from './ExperienceCard'
 import cardData from '../../../src/cardData'
 import { useState, useEffect, useRef } from 'react'
 import Carousels from './Carousel/Carousels'
+import RoboDesign from './RoboDesign'
+
 const Experience = () => {
 
 
@@ -44,8 +46,12 @@ const Experience = () => {
 
           </div>
         </div>
-        <div className='-mt-10'>
+        {/* <div className='-mt-10'>
           <Carousels />
+        </div> */}
+
+        <div className='-mt-80'>
+          <RoboDesign />
         </div>
 
       </div>

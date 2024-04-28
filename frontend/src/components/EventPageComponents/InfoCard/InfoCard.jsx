@@ -1,7 +1,11 @@
 import Buttons from "../../Buttons";
+import {Link} from 'react-router-dom'
 
-function InfoCard({img,title,desc}) {
-    return (<div className="flex flex-col flex-wrap rounded-[2rem] bg-[#191919] p-[40px]">
+function InfoCard({ img, title, desc, cardId }) {
+
+    return(
+        
+     <div className="flex flex-col flex-wrap rounded-[2rem] bg-[#191919] p-[40px]">
         <div>
             <img src={img} />
         </div>
@@ -10,8 +14,11 @@ function InfoCard({img,title,desc}) {
             <p className="text-[20px]">{desc}</p>
         </div>
         <div className="mt-[30px]">
-            <Buttons buttonText={"Read More"}/>
+            <Link to={`/pedetails/${cardId}`}>
+                <Buttons buttonText={"Read More"} />
+            </Link>
         </div>
-    </div>);
+    </div>
+    );
 }
 export default InfoCard;
