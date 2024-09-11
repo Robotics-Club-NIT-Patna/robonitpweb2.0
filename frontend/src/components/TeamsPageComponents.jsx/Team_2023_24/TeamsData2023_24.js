@@ -1,4 +1,4 @@
-const TeamData =[
+const TeamData_2023_2024 =[
     {
        'id':1,
        'name':'Darshan Jain',
@@ -284,4 +284,4 @@ const TeamData =[
 ]
 
 
-export default TeamData
+export default TeamData_2023_2024

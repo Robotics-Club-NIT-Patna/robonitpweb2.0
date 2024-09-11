@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import { HomePage, About,GalleryPage,TeamsPage, EventPage, ProjectPage } from "../pages"
+import Team_2023_24 from "../pages/Team_2023_24"
 import ScrollToTop from '../hooks/useScrollToTop';
 import ErrorBoundary from '../components/ErrorBoundary';
 import NavBar from "../components/NavBar";
@@ -28,7 +29,7 @@ const index = () => {
         },
         {
             path: "/teams",
-            element: <TeamsPage />
+            element: <TeamsPage year = {"2024"}/>
         },
         {
             path: "/events",
@@ -45,11 +46,11 @@ const index = () => {
         {
             path: "/pedetails/:cardId",
             element:<PEDetails/>
+        },
+        {
+            path: "/team23-24",
+            element:<Team_2023_24 year = {"current"}/>
         }
-        // {
-        //     path: "/team23-24",
-        //     element:<Team_2023_24/>
-        // }
 
 
     ]
