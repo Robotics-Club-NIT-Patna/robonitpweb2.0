@@ -46,6 +46,10 @@ const index = () => {
             path: "/pedetails/:cardId",
             element:<PEDetails/>
         }
+        // {
+        //     path: "/team23-24",
+        //     element:<Team_2023_24/>
+        // }
 
 
     ]

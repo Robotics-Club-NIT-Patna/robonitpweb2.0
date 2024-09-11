@@ -35,6 +35,7 @@ const TeamMember = () => {
             <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2020-21</div>
             <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2021-22</div>
             <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2022-23</div>
+            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2023-24</div>
           </div>
           :
           ''
