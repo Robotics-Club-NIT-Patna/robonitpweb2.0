@@ -1,7 +1,8 @@
 import React from 'react'
 import TeamMember from '../components/TeamsPageComponents.jsx/TeamMember'
 
-const TeamsPage = ({year}) => {
+const Team_2023_24 = ({year}) => {
+  console.log(year);
   return (
         <>
            <div className='overflow-x-hidden'>
@@ -11,4 +12,4 @@ const TeamsPage = ({year}) => {
   )
 }
 
-export default TeamsPage
+export default Team_2023_24

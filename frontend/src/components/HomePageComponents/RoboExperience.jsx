@@ -60,7 +60,7 @@ function Roboexperience() {
           <div className="background absolute h-full w-full xl:w-max -z-10">
             <div className="images lg:w-32 lg:h-30 w-20 h-20 sm:h-24 sm:w-24 md:h-24 md:w-24 lg:h-32 xl:h-32 absolute 
                     top-0 -left-5 sm:-top-10 sm:-left-12 md:top-0 md:left-36 xl:-left-72 ">
-              <img src='/images/postBearers/IMG_20240106_133755(1).jpg' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
+              <img src='/images/postBearers/IMG_6009 - Jatin Talavadiya.JPG' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
               <h5 className='text-sm w-full flex justify-center font-anton'>Captain</h5>
             </div>
             <div className="images lg:w-32 lg:h-32 w-20 h-20 sm:h-24 sm:w-24  md:h-24 md:w-24 absolute 
@@ -70,17 +70,17 @@ function Roboexperience() {
             </div>
             <div className="images lg:w-32 lg:h-32 w-20 h-20 sm:h-24 sm:w-24  md:h-24 md:w-24 absolute 
                     top-28 -left-5 sm:top-20 sm:-left-24 md:top-1/2 md:left-0 xl:left-56 xl:top-0">
-              <img src='/images/postBearers/Luban_1704541139471(1).jpg' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
+              <img src='/images/postBearers/DeepuKumarPresident.jpg' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
               <h5 className='text-sm w-full flex justify-center font-anton'>President</h5>
             </div>
             <div className="images lg:w-32 lg:h-32 w-20 h-20 sm:h-24 sm:w-24  md:h-24 md:w-24 absolute 
                     top-5 -right-10 sm:-top-2 sm:-right-20 md:top-1/2 md:right-0 xl:right-44 xl:top-56 ">
-              <img src='/images/postBearers/IMG-20221225-WA0000 - RATHOD NIHARIKA(1).jpg' className='image-cover object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
+              <img src='/images/postBearers/20240826_150352 - Satyam Bansal.jpg' className='image-cover object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
               <h5 className='text-sm w-full flex justify-center font-anton'>Secretary</h5>
             </div>
             <div className="images lg:w-32 lg:h-32 w-20 h-20 sm:h-24 sm:w-24  md:h-24 md:w-24 absolute 
                     top-40 bottom-0 left-24 sm:top-52 sm:left-2 md:bottom-0 md:left-40 xl:left-48">
-              <img src='/images/postBearers/WhatsApp Image 2022-01-02 at 2.49.43 PM - KAPISH VARSHNEY.jpeg' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
+              <img src='/images/postBearers/1000025811 - Nauser Alam.jpg' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
               <h5 className='text-sm w-full flex justify-center font-anton'>Vice Captain</h5>
             </div>
             <div className="images lg:w-32 lg:h-32 w-20 h-20 sm:h-24 sm:w-24  md:h-24 md:w-24 absolute 
