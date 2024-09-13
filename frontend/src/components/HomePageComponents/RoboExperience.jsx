@@ -60,7 +60,7 @@ function Roboexperience() {
           <div className="background absolute h-full w-full xl:w-max -z-10">
             <div className="images lg:w-32 lg:h-30 w-20 h-20 sm:h-24 sm:w-24 md:h-24 md:w-24 lg:h-32 xl:h-32 absolute 
                     top-0 -left-5 sm:-top-10 sm:-left-12 md:top-0 md:left-36 xl:-left-72 ">
-              <img src='/images/postBearers/IMG_6009 - Jatin Talavadiya.JPG' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
+              <img src='/images/postBearers/Screenshot_20240811_122946_Instagram - Dev Raj.jpg' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
               <h5 className='text-sm w-full flex justify-center font-anton'>Captain</h5>
             </div>
             <div className="images lg:w-32 lg:h-32 w-20 h-20 sm:h-24 sm:w-24  md:h-24 md:w-24 absolute 
