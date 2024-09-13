@@ -21,10 +21,9 @@ const TeamMember = ({ year }) => {
   function handleClick() {
     setShow(!show);
   }
-  function switchYear() {
-    year = "2023_2024";
-  }
-  if (year === "current"){
+
+  if (year === "2024-25"){
+
     return(
       <>
 
@@ -33,15 +32,9 @@ const TeamMember = ({ year }) => {
         <div className='cursor-pointer text-green-600 animate-bounce hover:animate-none' onClick={handleClick}><ChevronDown size={50} /></div>
         {show ?
           <div className='flex flex-wrap gap-4 pl-10 pr-10  justify-center items-center'>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2016-17</div>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2017-18</div>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2018-19</div>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2019-20</div>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2020-21</div>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2021-22</div>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2022-23</div>
-            <Link to="/team23-24" onClick={switchYear()} className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2023-24</Link>
-      
+            <Link to="/teams2023_2024" className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2023-24</Link>
+            <Link to="/teams" className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2024-25</Link>
+
           </div>
           :
           ''
@@ -56,7 +49,7 @@ const TeamMember = ({ year }) => {
           textStroke: '1px white'
         }}
       >Post Bearers for the
-        <div className='text-yellow-600'>AY 2023-24</div>
+        <div className='text-yellow-600'>AY {year}</div>
       </div>
 
       <div className='border-b-2 p-10 border-gray-600'>
@@ -102,14 +95,8 @@ const TeamMember = ({ year }) => {
         <div className='cursor-pointer text-green-600 animate-bounce hover:animate-none' onClick={handleClick}><ChevronDown size={50} /></div>
         {show ?
           <div className='flex flex-wrap gap-4 pl-10 pr-10  justify-center items-center'>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2016-17</div>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2017-18</div>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2018-19</div>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2019-20</div>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2020-21</div>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2021-22</div>
-            <div className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2022-23</div>
-            <Link to="/team23-24" className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2023-24</Link>
+            <Link to="/teams2023_2024" className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2023-24</Link>
+            <Link to="/teams" className='flex items-center justify-center h-10 bg-yellow-600 text-2xl font-bold border 1px p-1 cursor-pointer hover:text-gray-700 hover:bg-yellow-700'>2024-25</Link>
       
           </div>
           :
@@ -125,7 +112,7 @@ const TeamMember = ({ year }) => {
           textStroke: '1px white'
         }}
       >Post Bearers for the
-        <div className='text-yellow-600'>AY 2023-24</div>
+        <div className='text-yellow-600'>AY {year}</div>
       </div>
 
       <div className='border-b-2 p-10 border-gray-600'>
