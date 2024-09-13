@@ -29,7 +29,11 @@ const index = () => {
         },
         {
             path: "/teams",
-            element: <TeamsPage year = {"2024"}/>
+            element: <TeamsPage year = {"2024-25"}/>
+        },
+        {
+            path: "/teams2023_2024",
+            element: <TeamsPage year = {"2023-24"}/>
         },
         {
             path: "/events",
@@ -46,10 +50,6 @@ const index = () => {
         {
             path: "/pedetails/:cardId",
             element:<PEDetails/>
-        },
-        {
-            path: "/team23-24",
-            element:<Team_2023_24 year = {"current"}/>
         }
 
 
