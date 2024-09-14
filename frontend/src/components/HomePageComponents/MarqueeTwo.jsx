@@ -30,10 +30,10 @@ const MarqueeTwo = () => {
               <div>TO</div>
               <div className='sm:flex-grow'>
                 <div className='flex justify-center items-center w-[28vw] sm:w-auto  h-[8vw] sm:h-[5vw]     rounded-3xl bg-yellow-200'>
-                  <Marquee>
-                    <div className='text-black top-2/4'><ArrowBigLeft /></div>
-                    <div className='text-black top-2/4 ml-10'><ArrowBigLeft /></div>
-                    <div className='text-black top-2/4 ml-10'><ArrowBigLeft /></div>
+                  <Marquee direction='right'>
+                    <div className='text-black top-2/4'><ArrowBigRight /></div>
+                    <div className='text-black top-2/4 ml-10'><ArrowBigRight /></div>
+                    <div className='text-black top-2/4 ml-10'><ArrowBigRight /></div>
                   </Marquee>
                 </div>
               </div>
