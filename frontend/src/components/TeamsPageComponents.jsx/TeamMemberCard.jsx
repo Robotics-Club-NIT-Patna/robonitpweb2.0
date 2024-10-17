@@ -30,7 +30,7 @@ const TeamMemberCard = ({name,post,linkedin,instagram, github, twitter,bgcolor,i
                        <div className={`h-[16rem] w-[24rem] ${bgcolor} rounded-xl`}></div>
                        <div className={`h-[16rem] w-[24rem] ${bgcolor} shadow-[-1px_-1px_30px_0_rgba(0,0,0,0.3)] mt-10 ${margin}  rounded-md overflow-hidden flex justify-center items-center`}>
                             <img 
-                                src={image} alt='' 
+                                src={image} alt='Loading...' 
                                 className={`h-full object-cover p-2 ${loaded ? 'loaded' : 'blur'}`}
                                 onLoad={handleImageLoad}
                             />

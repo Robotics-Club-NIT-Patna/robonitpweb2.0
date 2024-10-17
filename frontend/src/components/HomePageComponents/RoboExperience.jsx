@@ -45,7 +45,7 @@ function Roboexperience() {
         <div data-aos='fade-up' className="py-5 px-5 md:w-full
                 main-content mt-40 sm:mt-40 md:mt-24 xl:mt-44 xl:mb-44 mb-10 flex items-center flex-col sm:items-center xl:flex-col sm:gap-8 justify-center">
 
-          <p className=" w-12/12 flex flex-col items-center font-anton 
+          <p className="mt-6 w-12/12 flex flex-col items-center font-anton 
                text-5xl sm:text-7xl  md:text-7xl lg:text-8xl text-white">
             <h1>OFFICE</h1>
             <h1>BEARERS</h1>
@@ -60,28 +60,29 @@ function Roboexperience() {
           <div className="background absolute h-full w-full xl:w-max -z-10">
             <div className="images lg:w-32 lg:h-30 w-20 h-20 sm:h-24 sm:w-24 md:h-24 md:w-24 lg:h-32 xl:h-32 absolute 
                     top-0 -left-5 sm:-top-10 sm:-left-12 md:top-0 md:left-36 xl:-left-72 ">
-              <img src='/images/postBearers/Screenshot_20240811_122946_Instagram - Dev Raj.jpg' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
-              <h5 className='text-sm w-full flex justify-center font-anton'>Captain</h5>
+              <img src='/images/postBearers/DeepuKumarPresident.jpg' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
+              <h5 className='text-sm w-full flex justify-center font-anton'>President</h5>
             </div>
-            <div className="images lg:w-32 lg:h-32 w-20 h-20 sm:h-24 sm:w-24  md:h-24 md:w-24 absolute 
-                    -top-20 right-20 sm:-top-24 sm:right-15 md:top-0 md:right-36 xl:-right-28 xl:-top-28">
+            <div className=" images lg:w-32 lg:h-32 w-20 h-20 sm:h-24 sm:w-24  md:h-24 md:w-24 absolute 
+                    -top-20 right-20 sm:-top-24 sm:right-15 md:top-0 md:right-36 xl:-right-20 xl:-top-28">
               <img src='https://lh3.googleusercontent.com/a-/AOh14GiDuUO4d4iWUb4OFPUwW7KjdGzv5lZOJrddsxcN' className='image-cover object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
               <h5 className='text-sm w-full flex justify-center font-anton'>PI</h5>
             </div>
             <div className="images lg:w-32 lg:h-32 w-20 h-20 sm:h-24 sm:w-24  md:h-24 md:w-24 absolute 
-                    top-28 -left-5 sm:top-20 sm:-left-24 md:top-1/2 md:left-0 xl:left-56 xl:top-0">
-              <img src='/images/postBearers/DeepuKumarPresident.jpg' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
-              <h5 className='text-sm w-full flex justify-center font-anton'>President</h5>
+                    top-28 -left-5 sm:top-20 sm:-left-24 md:top-1/2 md:left-0 xl:left-48 xl:top-0">
+                    <img src='/images/postBearers/Screenshot_20240811_122946_Instagram - Dev Raj.jpg' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
+                    <h5 className='text-sm w-full flex justify-center font-anton'>Captain</h5>
+              
             </div>
             <div className="images lg:w-32 lg:h-32 w-20 h-20 sm:h-24 sm:w-24  md:h-24 md:w-24 absolute 
                     top-5 -right-10 sm:-top-2 sm:-right-20 md:top-1/2 md:right-0 xl:right-44 xl:top-56 ">
-              <img src='/images/postBearers/20240826_150352 - Satyam Bansal.jpg' className='image-cover object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
-              <h5 className='text-sm w-full flex justify-center font-anton'>Secretary</h5>
+                      <img src='/images/postBearers/1000025811 - Nauser Alam.jpg' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
+                      <h5 className='text-sm w-full flex justify-center font-anton'>Vice Captain</h5>
             </div>
             <div className="images lg:w-32 lg:h-32 w-20 h-20 sm:h-24 sm:w-24  md:h-24 md:w-24 absolute 
                     top-40 bottom-0 left-24 sm:top-52 sm:left-2 md:bottom-0 md:left-40 xl:left-48">
-              <img src='/images/postBearers/1000025811 - Nauser Alam.jpg' className='image-cover  object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
-              <h5 className='text-sm w-full flex justify-center font-anton'>Vice Captain</h5>
+                      <img src='/images/postBearers/20240826_150352 - Satyam Bansal.jpg' className='image-cover object-cover md:border-0 rounded-full h-full w-full' alt="this is image 1" />
+                      <h5 className='text-sm w-full flex justify-center font-anton'>Secretary</h5>
             </div>
             <div className="images lg:w-32 lg:h-32 w-20 h-20 sm:h-24 sm:w-24  md:h-24 md:w-24 absolute 
                     -bottom-5 -right-2 sm:top-30 sm:-right-10 md:bottom-0 md:right-40 xl:-right-16 xl:top-80 ">
